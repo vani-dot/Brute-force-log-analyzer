@@ -1,0 +1,6 @@
+Jun 27 08:10:01 server sshd[2001]: Failed password for invalid user bob from 10.0.0.1 port 11111 ssh2
+Jun 27 08:15:22 server sshd[2002]: Accepted password for alice from 10.0.0.2 port 22222 ssh2
+Jun 27 08:22:45 server sshd[2003]: Failed password for invalid user root from 10.0.0.3 port 33333 ssh2
+Jun 27 08:35:10 server sshd[2004]: Accepted password for deploy from 10.0.0.4 port 44444 ssh2
+Jun 27 09:01:33 server sshd[2005]: Failed password for invalid user admin from 10.0.0.5 port 55555 ssh2
+Jun 27 09:45:02 server sshd[2006]: Accepted password for backup from 10.0.0.6 port 66666 ssh2

@@ -2,7 +2,7 @@
 
 Detects SSH password-guessing attacks in authentication logs — including three
 attack patterns that simple failure-counting misses entirely.
-
+![Dashboard](dashboard.png)
 Runs three ways, all on the same detection core:
 
 | | Command | What it does |

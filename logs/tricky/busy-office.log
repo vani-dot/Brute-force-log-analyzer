@@ -1,0 +1,144 @@
+Aug 24 08:22:29 webserver sshd[4166]: Failed password for jaswanth from 10.0.4.11 port 35349 ssh2
+Aug 24 08:22:55 webserver sshd[7427]: Failed password for jaswanth from 10.0.4.11 port 62490 ssh2
+Aug 24 08:23:33 webserver sshd[6642]: Accepted password for jaswanth from 10.0.4.11 port 49874 ssh2
+Aug 24 08:23:34 webserver sshd[7492]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 24 09:06:24 webserver sshd[8098]: Failed password for ansible from 10.0.4.11 port 50938 ssh2
+Aug 24 09:06:36 webserver sshd[5695]: Accepted password for ansible from 10.0.4.11 port 32999 ssh2
+Aug 24 09:06:37 webserver sshd[1554]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 24 09:51:54 webserver sshd[8640]: Failed password for ansible from 10.0.4.40 port 50078 ssh2
+Aug 24 09:52:26 webserver sshd[3037]: Accepted password for ansible from 10.0.4.40 port 55490 ssh2
+Aug 24 09:52:27 webserver sshd[8471]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 24 10:02:35 webserver sshd[5204]: Accepted password for ansible from 10.0.4.40 port 62275 ssh2
+Aug 24 10:02:36 webserver sshd[1029]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 24 10:09:21 webserver sshd[3974]: Accepted password for deploy from 10.0.4.12 port 38654 ssh2
+Aug 24 10:09:22 webserver sshd[4733]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 24 10:15:25 webserver sudo:  deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 10:38:02 webserver sshd[5202]: Accepted password for ansible from 10.0.4.12 port 31188 ssh2
+Aug 24 10:38:03 webserver sshd[9743]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 24 10:43:52 webserver sudo:  ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 10:46:13 webserver sshd[1954]: Accepted password for postgres from 10.0.4.40 port 43467 ssh2
+Aug 24 10:46:14 webserver sshd[4248]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 24 10:52:05 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 10:53:06 webserver sshd[8247]: Failed password for alice from 10.0.4.40 port 30202 ssh2
+Aug 24 10:53:46 webserver sshd[2877]: Accepted password for alice from 10.0.4.40 port 51163 ssh2
+Aug 24 10:53:47 webserver sshd[7878]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 24 10:54:24 webserver sshd[6701]: Failed password for deploy from 10.0.4.23 port 59618 ssh2
+Aug 24 10:54:39 webserver sshd[4066]: Accepted password for deploy from 10.0.4.23 port 43057 ssh2
+Aug 24 10:54:40 webserver sshd[8586]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 24 10:55:39 webserver sshd[9573]: Failed password for jaswanth from 10.0.4.11 port 51004 ssh2
+Aug 24 10:55:49 webserver sshd[2533]: Failed password for jaswanth from 10.0.4.11 port 48350 ssh2
+Aug 24 10:56:10 webserver sshd[1147]: Accepted password for jaswanth from 10.0.4.11 port 49837 ssh2
+Aug 24 10:56:11 webserver sshd[4774]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 24 10:58:29 webserver sudo:  alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 11:04:19 webserver sudo:  deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 11:16:57 webserver sshd[7817]: Accepted password for backup from 10.0.4.40 port 46191 ssh2
+Aug 24 11:16:58 webserver sshd[3055]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 24 11:32:39 webserver sshd[4150]: Failed password for backup from 10.0.4.15 port 37637 ssh2
+Aug 24 11:33:13 webserver sshd[1144]: Accepted password for backup from 10.0.4.15 port 59280 ssh2
+Aug 24 11:33:14 webserver sshd[1488]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 24 11:36:38 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 12:09:55 webserver sshd[6966]: Failed password for alice from 10.0.4.40 port 48998 ssh2
+Aug 24 12:10:12 webserver sshd[8918]: Accepted password for alice from 10.0.4.40 port 51154 ssh2
+Aug 24 12:10:13 webserver sshd[9734]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 24 12:15:50 webserver sshd[8531]: Failed password for jaswanth from 10.0.4.23 port 38468 ssh2
+Aug 24 12:16:13 webserver sshd[9242]: Failed password for jaswanth from 10.0.4.23 port 57922 ssh2
+Aug 24 12:16:25 webserver sshd[4159]: Accepted password for jaswanth from 10.0.4.23 port 39875 ssh2
+Aug 24 12:16:26 webserver sshd[3738]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 24 12:18:14 webserver sudo:  jaswanth : TTY=pts/0 ; PWD=/home/jaswanth ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 12:42:30 webserver sshd[6286]: Failed password for deploy from 10.0.4.12 port 62569 ssh2
+Aug 24 12:43:07 webserver sshd[9629]: Accepted password for deploy from 10.0.4.12 port 39518 ssh2
+Aug 24 12:43:08 webserver sshd[8742]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 24 12:48:15 webserver sudo:  deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 12:48:43 webserver sshd[9651]: Accepted password for jaswanth from 10.0.4.12 port 51618 ssh2
+Aug 24 12:48:44 webserver sshd[3243]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 24 12:54:42 webserver sshd[3819]: Failed password for ansible from 10.0.4.40 port 35909 ssh2
+Aug 24 12:55:09 webserver sshd[8402]: Accepted password for ansible from 10.0.4.40 port 44175 ssh2
+Aug 24 12:55:10 webserver sshd[5170]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 24 12:57:28 webserver sshd[8679]: Failed password for postgres from 10.0.4.11 port 61138 ssh2
+Aug 24 12:57:53 webserver sshd[2284]: Failed password for postgres from 10.0.4.11 port 62683 ssh2
+Aug 24 12:58:31 webserver sshd[9545]: Accepted password for postgres from 10.0.4.11 port 44138 ssh2
+Aug 24 12:58:32 webserver sshd[4984]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 24 13:03:22 webserver sudo:  ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 13:07:10 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 13:10:34 webserver sshd[7249]: Failed password for alice from 10.0.4.12 port 49805 ssh2
+Aug 24 13:11:11 webserver sshd[1812]: Failed password for alice from 10.0.4.12 port 43322 ssh2
+Aug 24 13:11:33 webserver sshd[9787]: Accepted password for alice from 10.0.4.12 port 34866 ssh2
+Aug 24 13:11:34 webserver sshd[3843]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 24 13:17:01 webserver sshd[8507]: Accepted password for backup from 10.0.4.11 port 43562 ssh2
+Aug 24 13:17:02 webserver sshd[7714]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 24 13:21:28 webserver sshd[2962]: Accepted password for deploy from 10.0.4.40 port 55497 ssh2
+Aug 24 13:21:29 webserver sshd[8241]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 24 13:22:50 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 13:24:45 webserver sshd[4989]: Accepted password for deploy from 10.0.4.23 port 61259 ssh2
+Aug 24 13:24:46 webserver sshd[4864]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 24 13:26:58 webserver sshd[3473]: Failed password for postgres from 10.0.4.15 port 39139 ssh2
+Aug 24 13:27:19 webserver sshd[2393]: Accepted password for postgres from 10.0.4.15 port 59857 ssh2
+Aug 24 13:27:20 webserver sshd[4185]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 24 13:34:41 webserver sudo:  deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 13:37:02 webserver sshd[1262]: Failed password for deploy from 10.0.4.11 port 62265 ssh2
+Aug 24 13:37:35 webserver sshd[6050]: Failed password for deploy from 10.0.4.11 port 47001 ssh2
+Aug 24 13:38:09 webserver sshd[8621]: Accepted password for deploy from 10.0.4.11 port 60069 ssh2
+Aug 24 13:38:10 webserver sshd[5359]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 24 13:39:02 webserver sudo:  deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 13:46:37 webserver sshd[8388]: Failed password for postgres from 10.0.4.40 port 39205 ssh2
+Aug 24 13:46:50 webserver sshd[1015]: Accepted password for postgres from 10.0.4.40 port 57881 ssh2
+Aug 24 13:46:51 webserver sshd[3280]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 24 13:48:17 webserver sshd[7958]: Accepted password for jaswanth from 10.0.4.12 port 39494 ssh2
+Aug 24 13:48:18 webserver sshd[9711]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 24 13:49:41 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 13:54:36 webserver sudo:  jaswanth : TTY=pts/0 ; PWD=/home/jaswanth ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 13:56:46 webserver sshd[8820]: Accepted password for backup from 10.0.4.23 port 48399 ssh2
+Aug 24 13:56:47 webserver sshd[1522]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 24 14:02:04 webserver sshd[6311]: Failed password for backup from 10.0.4.15 port 38620 ssh2
+Aug 24 14:02:28 webserver sshd[2889]: Failed password for backup from 10.0.4.15 port 64169 ssh2
+Aug 24 14:02:38 webserver sshd[5161]: Accepted password for backup from 10.0.4.15 port 60408 ssh2
+Aug 24 14:02:39 webserver sshd[3472]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 24 14:10:10 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 14:29:03 webserver sshd[3280]: Failed password for ansible from 10.0.4.23 port 47742 ssh2
+Aug 24 14:29:11 webserver sshd[5523]: Failed password for ansible from 10.0.4.23 port 53195 ssh2
+Aug 24 14:29:33 webserver sshd[4476]: Accepted password for ansible from 10.0.4.23 port 51052 ssh2
+Aug 24 14:29:34 webserver sshd[5867]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 24 14:31:20 webserver sudo:  ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 14:34:29 webserver sshd[3545]: Failed password for ansible from 10.0.4.40 port 34365 ssh2
+Aug 24 14:34:58 webserver sshd[1373]: Accepted password for ansible from 10.0.4.40 port 40473 ssh2
+Aug 24 14:34:59 webserver sshd[2813]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 24 14:35:33 webserver sudo:  ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 14:48:35 webserver sshd[8881]: Failed password for postgres from 10.0.4.11 port 61825 ssh2
+Aug 24 14:48:42 webserver sshd[2507]: Accepted password for postgres from 10.0.4.11 port 42656 ssh2
+Aug 24 14:48:43 webserver sshd[6558]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 24 14:53:37 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 15:07:00 webserver sshd[9036]: Failed password for alice from 10.0.4.23 port 51984 ssh2
+Aug 24 15:07:33 webserver sshd[7270]: Failed password for alice from 10.0.4.23 port 41914 ssh2
+Aug 24 15:08:00 webserver sshd[2951]: Accepted password for alice from 10.0.4.23 port 43215 ssh2
+Aug 24 15:08:01 webserver sshd[2072]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 24 15:08:28 webserver sshd[6952]: Failed password for jaswanth from 10.0.4.11 port 41591 ssh2
+Aug 24 15:09:03 webserver sshd[3589]: Failed password for jaswanth from 10.0.4.11 port 44789 ssh2
+Aug 24 15:09:20 webserver sshd[7875]: Accepted password for jaswanth from 10.0.4.11 port 56819 ssh2
+Aug 24 15:09:21 webserver sshd[1948]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 24 15:10:45 webserver sudo:  alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 15:13:07 webserver sshd[1077]: Failed password for jaswanth from 10.0.4.11 port 52716 ssh2
+Aug 24 15:13:36 webserver sshd[9442]: Failed password for jaswanth from 10.0.4.11 port 58520 ssh2
+Aug 24 15:14:10 webserver sshd[7618]: Accepted password for jaswanth from 10.0.4.11 port 61116 ssh2
+Aug 24 15:14:11 webserver sshd[9814]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 24 15:15:40 webserver sudo:  jaswanth : TTY=pts/0 ; PWD=/home/jaswanth ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 15:26:57 webserver sshd[1123]: Failed password for backup from 10.0.4.12 port 47398 ssh2
+Aug 24 15:27:11 webserver sshd[4255]: Accepted password for backup from 10.0.4.12 port 30867 ssh2
+Aug 24 15:27:12 webserver sshd[7046]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 24 15:37:01 webserver sshd[8883]: Failed password for backup from 10.0.4.11 port 63713 ssh2
+Aug 24 15:37:20 webserver sshd[3852]: Accepted password for backup from 10.0.4.11 port 60600 ssh2
+Aug 24 15:37:21 webserver sshd[4802]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 24 16:18:57 webserver sshd[1773]: Accepted password for postgres from 10.0.4.40 port 50850 ssh2
+Aug 24 16:18:58 webserver sshd[4333]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 24 16:19:14 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 16:22:41 webserver sshd[8613]: Accepted password for jaswanth from 10.0.4.40 port 37531 ssh2
+Aug 24 16:22:42 webserver sshd[4416]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 24 16:50:30 webserver sshd[4716]: Failed password for ansible from 10.0.4.23 port 30974 ssh2
+Aug 24 16:50:36 webserver sshd[3513]: Failed password for ansible from 10.0.4.23 port 31350 ssh2
+Aug 24 16:50:46 webserver sshd[4787]: Accepted password for ansible from 10.0.4.23 port 49053 ssh2
+Aug 24 16:50:47 webserver sshd[3950]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 24 16:58:06 webserver sshd[3095]: Failed password for deploy from 10.0.4.11 port 31800 ssh2
+Aug 24 16:58:36 webserver sshd[1599]: Failed password for deploy from 10.0.4.11 port 45304 ssh2
+Aug 24 16:59:13 webserver sshd[9884]: Accepted password for deploy from 10.0.4.11 port 35707 ssh2
+Aug 24 16:59:14 webserver sshd[4212]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 24 16:59:47 webserver sudo:  ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Aug 24 17:03:12 webserver sudo:  deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status nginx

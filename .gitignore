@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Runtime artefacts — regenerated on demand, never committed
+bfla.db
+bfla.db-wal
+bfla.db-shm
+generated.log
+live_auth.log
+
+# Secrets
+.env
+
+# OS / archives
+.DS_Store
+*.zip

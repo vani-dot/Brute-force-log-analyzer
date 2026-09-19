@@ -1,0 +1,9 @@
+Aug 24 01:00:00 webserver sshd[7407]: Accepted password for backup from 10.0.4.40 port 38297 ssh2
+Aug 24 01:00:01 webserver sshd[2299]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 24 01:04:00 webserver sshd[7809]: pam_unix(sshd:session): session closed for user backup
+Aug 24 02:17:00 webserver sshd[7615]: Accepted password for ansible from 10.0.4.15 port 49089 ssh2
+Aug 24 02:17:01 webserver sshd[6262]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 24 02:21:00 webserver sshd[9027]: pam_unix(sshd:session): session closed for user ansible
+Aug 24 03:34:00 webserver sshd[9409]: Accepted password for backup from 10.0.4.11 port 46763 ssh2
+Aug 24 03:34:01 webserver sshd[1530]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 24 03:38:00 webserver sshd[5268]: pam_unix(sshd:session): session closed for user backup

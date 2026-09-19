@@ -1,0 +1,82 @@
+BRUTE FORCE LOG ANALYZER
+========================
+
+Finds SSH password-guessing attacks in authentication logs.
+
+You need Python 3.9 or newer. Check with:  python3 --version
+
+
+QUICK START
+-----------
+
+1. Open a terminal in this folder.
+
+2. Set it up (once):
+
+       python3 -m venv .venv
+       source .venv/bin/activate          # Windows: .venv\Scripts\activate
+       pip install -r requirements.txt
+
+3. Check everything works:
+
+       ./selfcheck.sh
+
+   You should see "61 passed". If you do, everything below will work.
+
+4. Try it on the two example logs:
+
+       python main.py EXAMPLE-1-attacks-present.log -t 4 -w 600
+       python main.py EXAMPLE-2-no-attacks.log      -t 4 -w 600
+
+   The first finds 10 problems including one confirmed break-in.
+   The second finds nothing, which is the point: it is full of normal
+   logins, mistyped passwords and internet background noise, and staying
+   quiet on all of that is the harder half of the job.
+
+5. Start the web app:
+
+       PORT=5055 python app.py
+
+   Then open  http://127.0.0.1:5055  in a browser.
+
+   Use port 5055, not 5000 — on a Mac, port 5000 is taken by AirPlay.
+
+
+WHAT TO READ NEXT
+-----------------
+
+   HOW-TO-USE.md      Full guide, every feature, with the architecture diagram
+   DEMO.md            A click-by-click script for showing it to somebody
+   logs/README.md     What each sample log contains and where it came from
+   README.md          The technical write-up
+   REPORT.md          The formal project report
+
+
+A NOTE ON THE SAMPLE LOGS
+-------------------------
+
+Every log file included here is SYNTHETIC. They were written by
+make_logs.py for demonstration, using only IP address ranges that are
+reserved for documentation (RFC 5737, RFC 2544) or private networks
+(RFC 1918). Nothing was captured from a real machine and no real network
+is named anywhere.
+
+Because those ranges are not routed on the internet, the "IP lookup" tab
+will correctly report that they have no real-world location. Point the
+tool at a real /var/log/auth.log and you will get real countries.
+
+
+IF SOMETHING GOES WRONG
+-----------------------
+
+   "command not found: python"     use python3, or activate the venv first
+   "Address already in use"        use a different port: PORT=5056 python app.py
+   Buttons do nothing              hard-refresh the browser (Cmd/Ctrl+Shift+R)
+   ./selfcheck.sh: Permission denied
+                                   run:  chmod +x selfcheck.sh demo.sh simulate_attack.sh
+
+
+Nothing in this tool sends your logs anywhere. Everything runs on your own
+machine. The only feature that talks to the internet is the optional
+"Online lookup" checkbox on the IP lookup tab, which is off by default and
+tells you plainly when it is about to send an address to a third party.

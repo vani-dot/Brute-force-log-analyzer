@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 1120" width="1120" height="1120" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8b98a9"/>
+    </marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+    <style>
+      .b   { font-size: 14px; fill: #1b2430; font-weight: 650; }
+      .t   { font-size: 12.5px; fill: #41506a; }
+      .s   { font-size: 11.5px; fill: #6b7a8f; }
+      .hdr { font-size: 10.5px; fill: #6b7a8f; font-weight: 700; letter-spacing: 1.3px; }
+      .mono{ font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 11.5px; fill: #2563eb; }
+      .ttl { font-size: 21px; fill: #1b2430; font-weight: 700; }
+      .sub { font-size: 13px; fill: #6b7a8f; }
+      .box { fill: #fff; stroke: #d8dee9; stroke-width: 1.5; }
+      .core{ fill: #eef3ff; stroke: #2563eb; stroke-width: 2; }
+      .opt { fill: #fafbfd; stroke: #c9d2e0; stroke-width: 1.4; stroke-dasharray: 5 3; }
+      .band{ fill: #f5f7fb; stroke: #e4e9f0; stroke-width: 1; }
+      .ln  { stroke: #8b98a9; stroke-width: 1.6; fill: none; marker-end: url(#a); }
+      .lnb { stroke: #2563eb; stroke-width: 2.2; fill: none; marker-end: url(#ab); }
+    </style>
+  </defs>
+
+  <rect width="1120" height="1120" fill="#fff"/>
+  <g transform="translate(0,110)">
+  <text x="40" y="44" class="ttl">Brute Force Log Analyzer — architecture</text>
+  <text x="40" y="66" class="sub">One detection core. Three ways in, four ways out. Nothing in the shells knows how detection works.</text>
+
+  <!-- ROW 1: INPUTS -->
+  <text x="40" y="106" class="hdr">1 · INPUTS</text>
+  <rect x="40" y="116" width="238" height="58" rx="9" class="box"/>
+  <text x="58" y="141" class="b">Upload / paste / drop</text>
+  <text x="58" y="160" class="s">your own auth.log</text>
+
+  <rect x="298" y="116" width="238" height="58" rx="9" class="box"/>
+  <text x="316" y="141" class="b">A file on disk</text>
+  <text x="316" y="160" class="mono">python main.py auth.log</text>
+
+  <rect x="556" y="116" width="238" height="58" rx="9" class="box"/>
+  <text x="574" y="141" class="b">Live tail</text>
+  <text x="574" y="160" class="s">follows a file as it is written</text>
+
+  <rect x="814" y="116" width="266" height="58" rx="9" class="opt"/>
+  <text x="832" y="141" class="b">generate_log.py</text>
+  <text x="832" y="160" class="s">demo data, attacks planted inside</text>
+
+  <path d="M159 178 L 480 208" class="ln"/>
+  <path d="M417 178 L 520 208" class="ln"/>
+  <path d="M675 178 L 600 208" class="ln"/>
+  <path d="M947 178 L 640 208" class="ln"/>
+
+  <!-- ROW 2: CORE -->
+  <rect x="290" y="196" width="540" height="212" rx="12" class="band"/>
+  <text x="308" y="220" class="hdr">2 · DETECTION CORE — pure logic, no I/O, no framework</text>
+
+  <rect x="308" y="232" width="504" height="62" rx="9" class="core"/>
+  <text x="326" y="256" class="b">log_parser.py  ·  LogParser → LogEvent</text>
+  <text x="326" y="276" class="t">Accepts only real auth lines. Expands rsyslog "message repeated N times".</text>
+
+  <rect x="308" y="306" width="504" height="88" rx="9" class="core"/>
+  <text x="326" y="330" class="b">detector.py  ·  BruteForceDetector → Finding</text>
+  <text x="326" y="350" class="t">Sliding window over failures, grouped four ways:</text>
+  <text x="336" y="370" class="mono">by ip   ·   by user   ·   by /24 subnet   ·   failures that ended in SUCCESS</text>
+  <text x="326" y="388" class="t">Then deduplicate, apply the allowlist, and rank by severity.</text>
+
+  <path d="M560 296 L 560 302" class="lnb"/>
+
+  <!-- ROW 3: RESULT -->
+  <rect x="410" y="428" width="300" height="52" rx="9" class="core"/>
+  <text x="428" y="452" class="b">AnalysisResult</text>
+  <text x="428" y="470" class="t">events · stats · findings · chart data</text>
+  <path d="M560 396 L 560 424" class="lnb"/>
+
+  <!-- ROW 4: APPLIED -->
+  <text x="40" y="524" class="hdr">3 · APPLIED TO EACH FINDING</text>
+  <rect x="40" y="534" width="252" height="66" rx="9" class="box"/>
+  <text x="58" y="558" class="b">enrich.py</text>
+  <text x="58" y="577" class="s">Classifies the address from the</text>
+  <text x="58" y="592" class="s">address itself. No network needed.</text>
+
+  <rect x="304" y="534" width="252" height="66" rx="9" class="box"/>
+  <text x="322" y="558" class="b">storage.py</text>
+  <text x="322" y="577" class="s">SQLite history. Answers</text>
+  <text x="322" y="592" class="s">"have I seen this before?"</text>
+
+  <rect x="568" y="534" width="252" height="66" rx="9" class="opt"/>
+  <text x="586" y="558" class="b">Lookups  (opt-in)</text>
+  <text x="586" y="577" class="s">MaxMind offline DB · reverse</text>
+  <text x="586" y="592" class="s">DNS · online geolocation</text>
+
+  <rect x="832" y="534" width="248" height="66" rx="9" class="opt"/>
+  <text x="850" y="558" class="b">alerts.py  (opt-in)</text>
+  <text x="850" y="577" class="s">Slack · webhook · email,</text>
+  <text x="850" y="592" class="s">with severity floor + cooldown</text>
+
+  <path d="M470 484 L 200 530" class="ln"/>
+  <path d="M520 484 L 440 530" class="ln"/>
+  <path d="M600 484 L 680 530" class="ln"/>
+  <path d="M650 484 L 940 530" class="ln"/>
+
+  <!-- ROW 5: OUTPUTS -->
+  <text x="40" y="648" class="hdr">4 · OUTPUTS</text>
+  <rect x="40" y="658" width="252" height="58" rx="9" class="box"/>
+  <text x="58" y="682" class="b">Terminal report</text>
+  <text x="58" y="701" class="mono">python main.py auth.log</text>
+
+  <rect x="304" y="658" width="252" height="58" rx="9" class="box"/>
+  <text x="322" y="682" class="b">Web dashboard</text>
+  <text x="322" y="701" class="mono">app.py  →  :5055</text>
+
+  <rect x="568" y="658" width="252" height="58" rx="9" class="box"/>
+  <text x="586" y="682" class="b">HTML report</text>
+  <text x="586" y="701" class="s">one file, opens offline</text>
+
+  <rect x="832" y="658" width="248" height="58" rx="9" class="box"/>
+  <text x="850" y="682" class="b">JSON + exit code</text>
+  <text x="850" y="701" class="mono">--json · 0 / 1 / 2</text>
+
+  <path d="M166 604 L 166 654" class="lnb"/>
+  <path d="M430 604 L 430 654" class="lnb"/>
+  <path d="M694 604 L 694 654" class="lnb"/>
+  <path d="M956 604 L 956 654" class="lnb"/>
+
+  <!-- WHY -->
+  <rect x="40" y="748" width="1040" height="60" rx="10" fill="#eef3ff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="60" y="772" class="b">Why the core is separated from everything around it</text>
+  <text x="60" y="794" class="t">The CLI, the web app, the live watcher and the evaluation harness all call the same two objects — so the browser and the terminal cannot disagree.</text>
+
+  <!-- TRACE -->
+  <text x="40" y="842" class="hdr">ONE LINE THROUGH THE WHOLE SYSTEM</text>
+  <rect x="40" y="852" width="1040" height="34" rx="8" class="band"/>
+  <text x="58" y="874" class="s">Failed password for oracle from 198.51.100.23  →  LogEvent  →  grouped by ip / user / subnet  →  12 failures in 57s  →  a later Accepted makes it HIGH  →  report</text>
+  </g>
+</svg>

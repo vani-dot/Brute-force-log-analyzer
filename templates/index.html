@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brute Force Log Analyzer</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v={{ asset_version }}">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>&#128737;</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">&#9679;</span>
+    <div>
+      <h1>Brute Force Log Analyzer</h1>
+      <p>Sliding-window detection over SSH authentication logs</p>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <span id="live-pill" class="pill" hidden><span class="dot"></span><span id="live-pill-text">live</span></span>
+    <button id="theme-toggle" class="ghost" type="button" title="Toggle theme">Light</button>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab" data-tab="analyse" aria-selected="true">Analyse</button>
+  <button class="tab" data-tab="lookup" aria-selected="false">IP lookup</button>
+  <button class="tab" data-tab="live" aria-selected="false">Live monitor</button>
+  <button class="tab" data-tab="history" aria-selected="false">History</button>
+  <button class="tab" data-tab="setup" aria-selected="false">Setup</button>
+</nav>
+
+<main>
+
+<!-- ══════════════════ ANALYSE ══════════════════ -->
+<div class="tabpanel" data-panel="analyse">
+
+  <!-- your own log comes first -->
+  <section class="panel">
+    <div class="panel-head">
+      <h2>1 &middot; Your log file</h2>
+      <span class="hint" id="input-hint">Drop a file, choose one, or paste lines</span>
+    </div>
+
+    <div id="dropzone" class="dropzone">
+      <textarea id="logtext" spellcheck="false" rows="9"
+        placeholder="Drop your auth.log here, or paste lines.&#10;&#10;Linux:  /var/log/auth.log   or   /var/log/secure&#10;macOS:  log show --predicate 'process == &quot;sshd&quot;' --last 24h > auth.log&#10;&#10;Jun 19 09:15:01 server sshd[1004]: Failed password for invalid user admin from 192.168.1.5 port 51234 ssh2"></textarea>
+      <div class="drop-overlay"><span>Drop log file to analyse</span></div>
+    </div>
+
+    <div class="input-actions">
+      <label class="file-btn">Choose a log file&hellip;
+        <input type="file" id="fileinput" accept=".log,.txt,text/plain"></label>
+      <button class="ghost" type="button" id="clear">Clear everything</button>
+      <span class="hint" id="linecount">0 lines</span>
+    </div>
+  </section>
+
+  <!-- demo data, clearly labelled -->
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Or try the demo data</h2>
+      <button class="ghost small" type="button" id="samples-toggle">Show</button>
+    </div>
+    <div id="provenance" class="banner"></div>
+    <div id="samples-wrap" hidden>
+      <div class="samples" id="samples"><p class="hint">Loading…</p></div>
+
+      <div class="generator">
+        <div class="gen-row">
+          <strong>Generate a fresh log</strong>
+          <span class="hint">Builds a day of plausible traffic with attacks hidden
+                inside, so the detector has to find them rather than be handed them.</span>
+        </div>
+        <div class="gen-controls">
+          <label>Hours <input type="number" id="gen-hours" value="24" min="1" max="168"></label>
+          <label>Seed <input type="number" id="gen-seed" placeholder="random"></label>
+          <button class="ghost" type="button" id="generate">Generate</button>
+          <button class="ghost" type="button" id="verify" disabled
+                  title="Score the detector against the attacks that were planted">Score vs. ground truth</button>
+        </div>
+        <div id="gen-result" class="gen-result" hidden></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>2 &middot; Detection settings</h2>
+      <span class="hint" id="preset-hint"></span>
+    </div>
+
+    <div class="controls">
+      <div class="control">
+        <label for="threshold">Failure threshold</label>
+        <div class="slider-row">
+          <input type="range" id="threshold" min="2" max="25" value="{{ defaults.threshold }}">
+          <output id="threshold-out">{{ defaults.threshold }}</output>
+        </div>
+        <small>Failures needed inside the window before an alert fires.</small>
+      </div>
+
+      <div class="control">
+        <label for="window">Time window</label>
+        <div class="slider-row">
+          <input type="range" id="window" min="30" max="3600" step="30" value="{{ defaults.window }}">
+          <output id="window-out">{{ defaults.window }}s</output>
+        </div>
+        <small>How close together those failures have to be.</small>
+      </div>
+
+      <div class="control">
+        <label for="min-failures">Compromise sensitivity</label>
+        <div class="slider-row">
+          <input type="range" id="min-failures" min="1" max="10" value="{{ defaults.min_failures }}">
+          <output id="min-failures-out">{{ defaults.min_failures }}</output>
+        </div>
+        <small>Failures before a success that count as a breach. Below 3 this
+               starts flagging users who mistype their own password.</small>
+      </div>
+
+      <div class="control">
+        <label for="allowlist">Never alert on</label>
+        <input type="text" id="allowlist" class="text-input"
+               placeholder="10.0.0.0/8, 192.168.0.0/16, backup">
+        <small>Your own networks or service accounts. The subnet check cannot
+               know which range is yours — every staff typo aggregates into it.</small>
+      </div>
+
+      <div class="control checkbox">
+        <label><input type="checkbox" id="detect-compromise" checked>
+          Detect successful compromises</label>
+        <small>Failures that ended in <code>Accepted</code> — the only check
+               that measures a breach rather than an attempt.</small>
+        <label><input type="checkbox" id="send-alerts">
+          Send alerts for these findings</label>
+        <small id="alert-availability">Checking alert channels…</small>
+        <label><input type="checkbox" id="geo-lookup">
+          Look up where attacking IPs are from</label>
+        <small>Asks a public geolocation service for the country and network
+               operator behind each attacking address. <strong>This sends
+               those addresses to a third party.</strong> Only routable
+               addresses are ever sent — the demo logs use reserved
+               documentation ranges, which have no real location.</small>
+      </div>
+    </div>
+
+    <button id="analyze" class="primary" type="button">Analyse log</button>
+  </section>
+
+  <section id="results" class="results" hidden>
+    <div id="error" class="error" hidden></div>
+    <div id="verdict" class="verdict" hidden></div>
+    <div class="stats" id="stats"></div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Findings</h2>
+        <div class="head-actions">
+          <span class="hint" id="findings-source"></span>
+          <button class="primary small" type="button" id="report">Generate report</button>
+        </div>
+      </div>
+      <div id="findings"></div>
+      <div id="suppressed"></div>
+    </div>
+
+    <div class="two-col">
+      <div class="panel">
+        <div class="panel-head"><h2>Failures over time</h2></div>
+        <div id="timeline" class="timeline"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h2>Top sources</h2></div>
+        <div id="offenders" class="offenders"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ══════════════════ IP LOOKUP ══════════════════ -->
+<div class="tabpanel" data-panel="lookup" hidden>
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Where is this address from?</h2>
+      <span class="hint">Pick which sources to ask. Nothing leaves this machine
+            unless you tick the online option.</span>
+    </div>
+
+    <div class="lookup-row">
+      <input type="text" id="lookup-ip" class="text-input mono"
+             placeholder="Type an IP address, e.g. 198.51.100.23">
+      <button class="primary tight" type="button" id="lookup-go">Look up</button>
+    </div>
+    <div class="quick-ips" id="quick-ips">
+      <span class="hint">Try:</span>
+      <button class="chip link" type="button" data-lookup="198.51.100.23">198.51.100.23</button>
+      <button class="chip link" type="button" data-lookup="10.0.4.15">10.0.4.15</button>
+      <button class="chip link" type="button" data-lookup="8.8.8.8">8.8.8.8</button>
+      <button class="chip link" type="button" data-lookup="1.1.1.1">1.1.1.1</button>
+    </div>
+
+    <div id="lookup-methods" class="methods">
+      {% for p in lookup_providers %}
+      <label class="method {{ '' if p.available else 'off' }}">
+        <input type="checkbox" value="{{ p.name }}"
+               {% if p.name == 'builtin' %}checked disabled
+               {% elif p.name == 'rdns' %}checked{% endif %}
+               {% if not p.available %}disabled{% endif %}>
+        <div>
+          <strong>{{ p.label }}</strong>
+          <small>{{ p.description }}{% if p.error %} — {{ p.error }}{% endif %}</small>
+        </div>
+        {% if p.sends_data_offsite %}<span class="chip warn">leaves this machine</span>
+        {% elif p.needs_network %}<span class="chip">network</span>
+        {% else %}<span class="chip good">offline</span>{% endif %}
+      </label>
+      {% endfor %}
+    </div>
+    <div id="lookup-result" class="lookup-result" hidden></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>Addresses from your last analysis</h2></div>
+    <div id="lookup-recent"><p class="hint">Analyse a log first, then its
+      addresses appear here to click.</p></div>
+  </section>
+</div>
+
+<!-- ══════════════════ LIVE ══════════════════ -->
+<div class="tabpanel" data-panel="live" hidden>
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Live log monitoring</h2>
+      <span class="hint" id="live-state">stopped</span>
+    </div>
+
+    <div id="live-unconfigured" class="notice" hidden></div>
+
+    <div class="live-controls">
+      <label class="grow">Log file to follow
+        <input type="text" id="live-path" placeholder="/var/log/auth.log">
+      </label>
+      <label class="tight">Threshold <input type="number" id="live-threshold" value="{{ defaults.threshold }}" min="1"></label>
+      <label class="tight">Window <input type="number" id="live-window" value="{{ defaults.window }}" min="1"></label>
+      <label class="check"><input type="checkbox" id="live-from-start"> Read from start</label>
+      <button class="primary tight" type="button" id="live-start">Start</button>
+      <button class="ghost" type="button" id="live-stop" disabled>Stop</button>
+    </div>
+
+    <div class="stats" id="live-stats"></div>
+  </section>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Findings as they happen</h2>
+        <button class="ghost small" type="button" id="live-clear">Clear</button>
+      </div>
+      <div id="live-findings"><p class="hint">Nothing yet. Start the monitor above.</p></div>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><h2>Activity</h2></div>
+      <div id="live-activity" class="feed"><p class="hint">No activity yet.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════ HISTORY ══════════════════ -->
+<div class="tabpanel" data-panel="history" hidden>
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Across every analysis</h2>
+      <div class="head-actions">
+        <button class="ghost small" type="button" id="history-refresh">Refresh</button>
+        <button class="ghost small danger" type="button" id="history-clear">Clear history</button>
+      </div>
+    </div>
+    <div class="stats" id="history-summary"></div>
+  </section>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-head"><h2>Repeat offenders</h2></div>
+      <div id="repeat-offenders"><p class="hint">Nothing recorded yet.</p></div>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><h2>Recent runs</h2></div>
+      <div id="recent-runs"><p class="hint">Nothing recorded yet.</p></div>
+    </div>
+  </div>
+
+  <section class="panel">
+    <div class="panel-head"><h2>Alerts sent</h2></div>
+    <div id="alert-log"><p class="hint">No alerts sent.</p></div>
+  </section>
+</div>
+
+<!-- ══════════════════ SETUP ══════════════════ -->
+<div class="tabpanel" data-panel="setup" hidden>
+  <section class="panel">
+    <div class="panel-head">
+      <h2>What is wired up</h2>
+      <button class="ghost small" type="button" id="setup-refresh">Re-check</button>
+    </div>
+    <p class="hint">Read live from the running process. A feature with no
+       credentials is reported as unconfigured rather than silently doing nothing.
+       Each card names the setting that switches it on.</p>
+    <div id="capabilities" class="capabilities"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>What the analysis is built on</h2>
+      <span class="hint">Read from the running process</span>
+    </div>
+    <div id="backend"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Alert channels</h2>
+      <button class="ghost small" type="button" id="alert-test">Send test alert</button>
+    </div>
+    <div id="alert-channels"></div>
+    <div id="alert-test-result" class="notice" hidden></div>
+  </section>
+</div>
+
+</main>
+
+<footer>
+  <p>Same parser and detector the CLI uses &mdash;
+     <code>python main.py auth.log</code>.
+     Pivots on IP, username and /24 subnet, because per-IP counting alone is
+     trivially evaded.</p>
+</footer>
+
+<script src="{{ url_for('static', filename='app.js') }}?v={{ asset_version }}"></script>
+</body>
+</html>

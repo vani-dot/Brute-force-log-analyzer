@@ -1,0 +1,25 @@
+services:
+  bfla:
+    build: .
+    image: brute-force-log-analyzer
+    ports:
+      - "5000:5000"
+    volumes:
+      # History survives a rebuild.
+      - bfla-data:/data
+      # To monitor the host's real SSH log, uncomment. Read-only on purpose:
+      # the analyser never needs to write to a log it is watching.
+      # - /var/log/auth.log:/host/auth.log:ro
+    environment:
+      # Everything here is optional. Blank means the feature reports itself
+      # as unconfigured rather than pretending to work.
+      # - BFLA_WATCH_PATH=/host/auth.log
+      # - BFLA_SLACK_WEBHOOK_URL=
+      # - BFLA_WEBHOOK_URL=
+      # - BFLA_GEOIP_CITY_DB=/data/GeoLite2-City.mmdb
+      # - BFLA_GEOIP_ASN_DB=/data/GeoLite2-ASN.mmdb
+      - BFLA_DEBUG=false
+    restart: unless-stopped
+
+volumes:
+  bfla-data:

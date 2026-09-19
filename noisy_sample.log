@@ -1,0 +1,7 @@
+Jun 22 03:00:00 server sshd[4001]: Received disconnect from 203.0.113.200 port 40001:11: Bye Bye [preauth]
+Jun 22 03:00:01 server sshd[4002]: Disconnected from authenticating user root 203.0.113.200 port 40002 [preauth]
+Jun 22 03:00:02 server sshd[4003]: Connection reset by 198.51.100.4 port 40003 [preauth]
+Jun 22 03:00:05 server sshd[4004]: Invalid user oracle from 198.51.100.4 port 40004
+Jun 22 03:01:00 server sshd[4005]: message repeated 9 times: [ Failed password for root from 203.0.113.200 port 40005 ssh2]
+Jun 22 03:01:30 server sshd[4006]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Jun 22 03:02:00 server sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/ls

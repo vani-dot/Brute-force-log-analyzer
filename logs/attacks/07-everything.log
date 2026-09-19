@@ -1,0 +1,1114 @@
+Aug 26 00:02:39 webserver sshd[9262]: Failed password for invalid user mysql from 203.0.113.243 port 58108 ssh2
+Aug 26 00:02:50 webserver sshd[5587]: Failed password for invalid user root from 203.0.113.243 port 64927 ssh2
+Aug 26 00:04:27 webserver CRON[2979]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 00:05:37 webserver sshd[6812]: Connection reset by 198.51.100.209 port 46475 [preauth]
+Aug 26 00:06:13 webserver sshd[4169]: pam_unix(sshd:session): session closed for user mysql
+Aug 26 00:06:34 webserver sshd[9854]: Connection closed by 203.0.113.76 port 37679 [preauth]
+Aug 26 00:09:07 webserver sshd[9439]: Disconnected from authenticating user oracle 192.0.2.173 port 36228 [preauth]
+Aug 26 00:13:30 webserver sshd[7188]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 00:14:32 webserver sshd[9535]: pam_unix(sshd:session): session closed for user ftp
+Aug 26 00:15:53 webserver sshd[1453]: Accepted password for alice from 10.0.4.11 port 36561 ssh2
+Aug 26 00:15:54 webserver sshd[2155]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 00:17:21 webserver sshd[1034]: Failed password for postgres from 10.0.4.12 port 64480 ssh2
+Aug 26 00:17:26 webserver sshd[7330]: Accepted password for postgres from 10.0.4.12 port 42044 ssh2
+Aug 26 00:17:27 webserver sshd[6695]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 00:21:34 webserver CRON[2593]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 00:22:20 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 00:24:28 webserver sshd[6628]: Failed password for invalid user user from 203.0.113.170 port 45272 ssh2
+Aug 26 00:24:45 webserver sshd[4390]: Failed password for invalid user admin from 203.0.113.170 port 52494 ssh2
+Aug 26 00:31:06 webserver CRON[1392]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 00:33:26 webserver sshd[6535]: Failed password for invalid user oracle from 203.0.113.113 port 46081 ssh2
+Aug 26 00:33:29 webserver sshd[1570]: Accepted publickey for backup from 192.0.2.38 port 60291 ssh2: RSA SHA256:x
+Aug 26 00:38:18 webserver sshd[8697]: pam_unix(sshd:session): session closed for user guest
+Aug 26 00:41:25 webserver sshd[5485]: Disconnected from authenticating user mysql 192.0.2.209 port 39687 [preauth]
+Aug 26 00:42:44 webserver sshd[5218]: Failed password for invalid user git from 198.51.100.182 port 52038 ssh2
+Aug 26 00:43:13 webserver sshd[7568]: Failed password for invalid user ubuntu from 198.51.100.182 port 51458 ssh2
+Aug 26 00:44:13 webserver sshd[4698]: Accepted password for backup from 10.0.4.15 port 36321 ssh2
+Aug 26 00:44:14 webserver sshd[4530]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 00:44:45 webserver sshd[2727]: Failed password for invalid user oracle from 198.51.100.101 port 55351 ssh2
+Aug 26 00:48:13 webserver sshd[9459]: pam_unix(sshd:session): session opened for user ftp by (uid=0)
+Aug 26 00:51:52 webserver CRON[4602]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 00:56:00 webserver sshd[3673]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 00:56:25 webserver sshd[9484]: Accepted password for jaswanth from 10.0.4.23 port 61077 ssh2
+Aug 26 00:56:26 webserver sshd[6344]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 00:59:35 webserver CRON[7691]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 01:00:00 webserver sshd[1775]: Failed password for invalid user ubuntu from 203.0.113.39 port 50522 ssh2
+Aug 26 01:02:02 webserver sshd[2816]: Failed password for invalid user guest from 198.51.100.9 port 32579 ssh2
+Aug 26 01:02:17 webserver sshd[5992]: Failed password for invalid user git from 203.0.113.213 port 57843 ssh2
+Aug 26 01:02:24 webserver sshd[8543]: Failed password for invalid user www from 203.0.113.213 port 52886 ssh2
+Aug 26 01:04:43 webserver sshd[1831]: pam_unix(sshd:session): session closed for user mysql
+Aug 26 01:05:36 webserver sshd[5748]: Failed password for invalid user ubuntu from 203.0.113.39 port 38417 ssh2
+Aug 26 01:06:08 webserver sshd[7365]: pam_unix(sshd:session): session opened for user git by (uid=0)
+Aug 26 01:09:42 webserver sshd[6571]: Accepted publickey for guest from 192.0.2.115 port 62857 ssh2: RSA SHA256:x
+Aug 26 01:11:12 webserver sshd[5058]: Failed password for invalid user ubuntu from 203.0.113.39 port 59368 ssh2
+Aug 26 01:12:03 webserver sshd[7377]: Failed password for postgres from 192.0.2.7 port 36628 ssh2
+Aug 26 01:16:34 webserver sshd[5637]: Disconnected from authenticating user ubuntu 192.0.2.76 port 49150 [preauth]
+Aug 26 01:16:48 webserver sshd[6698]: Failed password for invalid user ubuntu from 203.0.113.39 port 42706 ssh2
+Aug 26 01:20:02 webserver CRON[9556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 01:22:24 webserver sshd[4120]: Failed password for invalid user ubuntu from 203.0.113.39 port 48975 ssh2
+Aug 26 01:26:23 webserver sshd[3644]: Failed password for invalid user user from 203.0.113.36 port 48590 ssh2
+Aug 26 01:28:00 webserver sshd[5090]: Failed password for invalid user ubuntu from 203.0.113.39 port 45464 ssh2
+Aug 26 01:28:14 webserver sshd[5001]: Failed password for invalid user jenkins from 198.51.100.233 port 59101 ssh2
+Aug 26 01:31:42 webserver sshd[5923]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 01:32:38 webserver sshd[1465]: Accepted publickey for ubuntu from 192.0.2.37 port 50360 ssh2: RSA SHA256:x
+Aug 26 01:33:36 webserver sshd[4696]: Failed password for invalid user ubuntu from 203.0.113.39 port 60578 ssh2
+Aug 26 01:39:12 webserver sshd[5526]: Failed password for invalid user ubuntu from 203.0.113.39 port 36955 ssh2
+Aug 26 01:40:00 webserver sshd[3414]: Failed password for jaswanth from 10.0.4.23 port 64108 ssh2
+Aug 26 01:40:07 webserver sshd[7256]: Accepted password for jaswanth from 10.0.4.23 port 36707 ssh2
+Aug 26 01:40:08 webserver sshd[5887]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 01:40:20 webserver sshd[8827]: Connection closed by 192.0.2.66 port 59010 [preauth]
+Aug 26 01:40:49 webserver sshd[1920]: Accepted password for postgres from 10.0.4.11 port 57535 ssh2
+Aug 26 01:40:50 webserver sshd[7437]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 01:42:40 webserver sudo:  jaswanth : TTY=pts/0 ; PWD=/home/jaswanth ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 01:42:58 webserver sshd[2209]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 01:44:20 webserver CRON[2129]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 01:44:24 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/bin/journalctl -u api
+Aug 26 01:44:48 webserver sshd[2981]: Failed password for invalid user ubuntu from 203.0.113.39 port 62648 ssh2
+Aug 26 01:44:49 webserver sshd[2182]: Disconnected from authenticating user guest 203.0.113.250 port 39080 [preauth]
+Aug 26 01:45:29 webserver sshd[4942]: Failed password for postgres from 192.0.2.243 port 33773 ssh2
+Aug 26 01:45:33 webserver sshd[9654]: Failed password for postgres from 192.0.2.160 port 41384 ssh2
+Aug 26 01:45:50 webserver sshd[9844]: Failed password for invalid user oracle from 192.0.2.243 port 58920 ssh2
+Aug 26 01:50:24 webserver sshd[5596]: Failed password for invalid user ubuntu from 203.0.113.39 port 57433 ssh2
+Aug 26 01:56:00 webserver sshd[9557]: Failed password for invalid user ubuntu from 203.0.113.39 port 46455 ssh2
+Aug 26 01:57:33 webserver sshd[5637]: Failed password for invalid user admin from 192.0.2.64 port 48520 ssh2
+Aug 26 01:57:43 webserver sshd[9398]: Failed password for invalid user oracle from 203.0.113.180 port 56653 ssh2
+Aug 26 01:57:54 webserver sshd[2243]: Failed password for invalid user ubuntu from 192.0.2.64 port 38397 ssh2
+Aug 26 01:57:58 webserver sshd[5680]: Failed password for invalid user oracle from 203.0.113.180 port 34739 ssh2
+Aug 26 01:58:24 webserver sshd[5758]: Accepted password for postgres from 10.0.4.12 port 57425 ssh2
+Aug 26 01:58:25 webserver sshd[3683]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 01:59:14 webserver sshd[1628]: pam_unix(sshd:session): session opened for user user by (uid=0)
+Aug 26 02:01:17 webserver sshd[8216]: Connection closed by 198.51.100.170 port 45375 [preauth]
+Aug 26 02:01:36 webserver sshd[4185]: Failed password for invalid user ubuntu from 203.0.113.39 port 43642 ssh2
+Aug 26 02:02:21 webserver sshd[9279]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 02:03:20 webserver sshd[2801]: Connection closed by 203.0.113.209 port 50836 [preauth]
+Aug 26 02:03:54 webserver sshd[3463]: pam_unix(sshd:session): session opened for user git by (uid=0)
+Aug 26 02:07:12 webserver sshd[5426]: Failed password for invalid user ubuntu from 203.0.113.39 port 31531 ssh2
+Aug 26 02:07:22 webserver sshd[4863]: Received disconnect from 192.0.2.146 port 60605:11: Bye Bye [preauth]
+Aug 26 02:12:48 webserver sshd[3116]: Failed password for invalid user ubuntu from 203.0.113.39 port 37769 ssh2
+Aug 26 02:14:49 webserver sshd[1772]: Connection closed by 192.0.2.148 port 55219 [preauth]
+Aug 26 02:15:06 webserver sshd[9479]: Failed password for invalid user oracle from 192.0.2.19 port 55889 ssh2
+Aug 26 02:15:13 webserver sshd[9717]: Failed password for invalid user oracle from 192.0.2.19 port 30134 ssh2
+Aug 26 02:16:27 webserver sshd[2618]: Connection closed by 203.0.113.234 port 54000 [preauth]
+Aug 26 02:18:24 webserver sshd[1935]: Failed password for invalid user ubuntu from 203.0.113.39 port 30242 ssh2
+Aug 26 02:22:00 webserver sshd[3606]: Failed password for invalid user root from 198.51.100.219 port 56382 ssh2
+Aug 26 02:22:02 webserver sshd[5267]: Failed password for invalid user root from 198.51.100.219 port 63783 ssh2
+Aug 26 02:22:03 webserver sshd[4716]: Failed password for invalid user root from 198.51.100.219 port 37471 ssh2
+Aug 26 02:22:07 webserver sshd[3903]: Failed password for invalid user root from 198.51.100.219 port 64329 ssh2
+Aug 26 02:22:09 webserver sshd[1288]: Failed password for invalid user root from 198.51.100.219 port 52936 ssh2
+Aug 26 02:22:13 webserver sshd[9084]: Failed password for invalid user root from 198.51.100.219 port 62324 ssh2
+Aug 26 02:22:16 webserver sshd[7108]: Failed password for invalid user root from 198.51.100.219 port 54052 ssh2
+Aug 26 02:22:20 webserver sshd[1319]: Failed password for invalid user root from 198.51.100.219 port 61919 ssh2
+Aug 26 02:22:22 webserver sshd[2826]: Failed password for invalid user root from 198.51.100.219 port 32478 ssh2
+Aug 26 02:22:24 webserver sshd[6678]: Failed password for invalid user root from 198.51.100.219 port 56923 ssh2
+Aug 26 02:22:27 webserver sshd[4788]: Failed password for invalid user root from 198.51.100.219 port 30786 ssh2
+Aug 26 02:22:31 webserver sshd[2429]: Failed password for invalid user root from 198.51.100.219 port 46268 ssh2
+Aug 26 02:22:35 webserver sshd[4524]: Failed password for invalid user root from 198.51.100.219 port 45009 ssh2
+Aug 26 02:22:36 webserver sshd[4130]: Failed password for invalid user root from 198.51.100.219 port 44184 ssh2
+Aug 26 02:22:39 webserver sshd[1067]: Failed password for invalid user root from 198.51.100.219 port 32373 ssh2
+Aug 26 02:22:40 webserver sshd[3394]: Failed password for invalid user root from 198.51.100.219 port 42201 ssh2
+Aug 26 02:22:42 webserver sshd[7819]: Failed password for invalid user root from 198.51.100.219 port 52382 ssh2
+Aug 26 02:22:45 webserver sshd[3604]: Failed password for invalid user root from 198.51.100.219 port 57422 ssh2
+Aug 26 02:22:46 webserver sshd[9954]: Failed password for invalid user root from 198.51.100.219 port 62220 ssh2
+Aug 26 02:22:50 webserver sshd[1555]: Failed password for invalid user root from 198.51.100.219 port 50213 ssh2
+Aug 26 02:22:51 webserver sshd[8852]: Failed password for invalid user root from 198.51.100.219 port 45171 ssh2
+Aug 26 02:22:54 webserver sshd[7577]: Failed password for invalid user root from 198.51.100.219 port 48732 ssh2
+Aug 26 02:22:56 webserver sshd[7577]: Failed password for invalid user root from 198.51.100.219 port 42743 ssh2
+Aug 26 02:22:59 webserver sshd[5166]: Failed password for invalid user root from 198.51.100.219 port 32425 ssh2
+Aug 26 02:23:00 webserver sshd[5386]: Failed password for invalid user root from 198.51.100.219 port 50381 ssh2
+Aug 26 02:23:04 webserver sshd[1801]: Failed password for invalid user root from 198.51.100.219 port 56311 ssh2
+Aug 26 02:23:06 webserver sshd[4934]: Failed password for invalid user root from 198.51.100.219 port 30650 ssh2
+Aug 26 02:23:40 webserver sshd[1953]: Accepted publickey for admin from 198.51.100.221 port 58481 ssh2: RSA SHA256:x
+Aug 26 02:24:00 webserver sshd[5323]: Failed password for invalid user ubuntu from 203.0.113.39 port 64519 ssh2
+Aug 26 02:29:36 webserver sshd[7174]: Failed password for invalid user ubuntu from 203.0.113.39 port 50997 ssh2
+Aug 26 02:33:47 webserver sshd[9645]: Connection reset by 192.0.2.239 port 51889 [preauth]
+Aug 26 02:35:12 webserver sshd[9082]: Failed password for invalid user ubuntu from 203.0.113.39 port 64478 ssh2
+Aug 26 02:35:34 webserver sshd[5274]: Failed password for invalid user jenkins from 198.51.100.20 port 46584 ssh2
+Aug 26 02:36:05 webserver sshd[2649]: Accepted publickey for postgres from 198.51.100.14 port 56610 ssh2: RSA SHA256:x
+Aug 26 02:40:48 webserver sshd[6545]: Failed password for invalid user ubuntu from 203.0.113.39 port 55119 ssh2
+Aug 26 02:44:41 webserver CRON[6548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 02:45:26 webserver sshd[5438]: Accepted password for ansible from 10.0.4.23 port 43835 ssh2
+Aug 26 02:45:27 webserver sshd[3444]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 26 02:45:48 webserver sshd[8693]: pam_unix(sshd:session): session closed for user alice
+Aug 26 02:46:24 webserver sshd[8687]: Failed password for invalid user ubuntu from 203.0.113.39 port 42976 ssh2
+Aug 26 02:48:17 webserver sudo:  ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 02:49:16 webserver CRON[4988]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 02:52:00 webserver sshd[2540]: Failed password for invalid user ubuntu from 203.0.113.39 port 35712 ssh2
+Aug 26 02:52:40 webserver sshd[4670]: Connection reset by 198.51.100.62 port 33125 [preauth]
+Aug 26 02:54:37 webserver sshd[6394]: Disconnected from authenticating user pi 198.51.100.227 port 40718 [preauth]
+Aug 26 02:57:36 webserver sshd[5725]: Failed password for invalid user ubuntu from 203.0.113.39 port 37286 ssh2
+Aug 26 03:02:29 webserver sshd[7108]: Failed password for invalid user ftp from 198.51.100.232 port 42064 ssh2
+Aug 26 03:02:49 webserver sshd[3532]: Failed password for invalid user pi from 198.51.100.232 port 58408 ssh2
+Aug 26 03:03:12 webserver sshd[6056]: Failed password for invalid user ubuntu from 203.0.113.39 port 47455 ssh2
+Aug 26 03:08:19 webserver sshd[5041]: Received disconnect from 203.0.113.83 port 39183:11: Bye Bye [preauth]
+Aug 26 03:08:48 webserver sshd[6690]: Failed password for invalid user ubuntu from 203.0.113.39 port 47947 ssh2
+Aug 26 03:09:14 webserver sshd[1586]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 03:12:02 webserver sshd[4124]: pam_unix(sshd:session): session closed for user test
+Aug 26 03:14:24 webserver sshd[3843]: Failed password for invalid user ubuntu from 203.0.113.39 port 46125 ssh2
+Aug 26 03:14:36 webserver sshd[5882]: Failed password for invalid user ftp from 192.0.2.20 port 51279 ssh2
+Aug 26 03:15:14 webserver CRON[4529]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 03:17:17 webserver sshd[9674]: Failed password for invalid user test from 192.0.2.50 port 54570 ssh2
+Aug 26 03:19:44 webserver sshd[3531]: Failed password for invalid user mysql from 192.0.2.178 port 35111 ssh2
+Aug 26 03:20:00 webserver sshd[6086]: Failed password for invalid user ubuntu from 203.0.113.39 port 38197 ssh2
+Aug 26 03:20:02 webserver sshd[6230]: Failed password for invalid user git from 192.0.2.178 port 49863 ssh2
+Aug 26 03:20:31 webserver sshd[4574]: Failed password for invalid user test from 198.51.100.97 port 64917 ssh2
+Aug 26 03:24:59 webserver sshd[1847]: Accepted password for backup from 10.0.4.12 port 33155 ssh2
+Aug 26 03:25:00 webserver sshd[5593]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 03:25:36 webserver sshd[3985]: Accepted password for alice from 10.0.4.11 port 39673 ssh2
+Aug 26 03:25:36 webserver sshd[7937]: Failed password for invalid user ubuntu from 203.0.113.39 port 41838 ssh2
+Aug 26 03:25:37 webserver sshd[5298]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 03:27:54 webserver sshd[6542]: Accepted password for alice from 10.0.4.11 port 41451 ssh2
+Aug 26 03:27:55 webserver sshd[8096]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 03:27:59 webserver sudo:  alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 03:28:31 webserver sshd[2753]: Connection reset by 203.0.113.126 port 31713 [preauth]
+Aug 26 03:29:20 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 03:30:46 webserver sshd[3625]: Failed password for invalid user guest from 203.0.113.99 port 60858 ssh2
+Aug 26 03:31:02 webserver sshd[6832]: Connection closed by 198.51.100.152 port 48631 [preauth]
+Aug 26 03:31:12 webserver sshd[2414]: Failed password for invalid user ubuntu from 203.0.113.39 port 64732 ssh2
+Aug 26 03:31:25 webserver sshd[7627]: Failed password for invalid user guest from 203.0.113.99 port 59494 ssh2
+Aug 26 03:34:10 webserver sshd[2039]: Connection reset by 203.0.113.33 port 30246 [preauth]
+Aug 26 03:34:25 webserver sshd[2678]: Failed password for invalid user www from 203.0.113.212 port 57747 ssh2
+Aug 26 03:35:03 webserver sshd[4928]: Failed password for invalid user admin from 203.0.113.212 port 60375 ssh2
+Aug 26 03:36:48 webserver sshd[6212]: Failed password for invalid user ubuntu from 203.0.113.39 port 44962 ssh2
+Aug 26 03:42:24 webserver sshd[1009]: Failed password for invalid user ubuntu from 203.0.113.39 port 41020 ssh2
+Aug 26 03:42:38 webserver sshd[3333]: Failed password for invalid user ftp from 198.51.100.180 port 47735 ssh2
+Aug 26 03:42:42 webserver sshd[5861]: Failed password for invalid user admin from 198.51.100.180 port 30923 ssh2
+Aug 26 03:42:53 webserver sshd[9818]: Connection reset by 192.0.2.90 port 64203 [preauth]
+Aug 26 03:45:22 webserver sshd[7154]: Accepted password for postgres from 10.0.4.15 port 37471 ssh2
+Aug 26 03:45:23 webserver sshd[5924]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 03:46:27 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 03:48:00 webserver sshd[4042]: Failed password for invalid user ubuntu from 203.0.113.39 port 42379 ssh2
+Aug 26 03:48:10 webserver sshd[9927]: Connection reset by 198.51.100.75 port 42459 [preauth]
+Aug 26 03:53:36 webserver sshd[8155]: Failed password for invalid user ubuntu from 203.0.113.39 port 61431 ssh2
+Aug 26 03:53:57 webserver sshd[4198]: Failed password for invalid user ubuntu from 198.51.100.101 port 40125 ssh2
+Aug 26 03:54:08 webserver sshd[7777]: Accepted publickey for git from 198.51.100.196 port 43730 ssh2: RSA SHA256:x
+Aug 26 03:54:30 webserver sshd[7301]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 03:55:18 webserver sshd[4988]: Failed password for invalid user ftp from 203.0.113.120 port 47255 ssh2
+Aug 26 03:59:12 webserver sshd[2172]: Failed password for invalid user ubuntu from 203.0.113.39 port 40446 ssh2
+Aug 26 03:59:25 webserver sshd[1840]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 04:01:15 webserver sshd[3754]: Disconnected from authenticating user postgres 192.0.2.206 port 37912 [preauth]
+Aug 26 04:01:37 webserver sshd[2049]: pam_unix(sshd:session): session closed for user mysql
+Aug 26 04:01:45 webserver CRON[2991]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 04:04:48 webserver sshd[7705]: Failed password for invalid user ubuntu from 203.0.113.39 port 52620 ssh2
+Aug 26 04:10:24 webserver sshd[4875]: Failed password for invalid user ubuntu from 203.0.113.39 port 64464 ssh2
+Aug 26 04:15:27 webserver sshd[8427]: Failed password for invalid user ubuntu from 198.51.100.246 port 61244 ssh2
+Aug 26 04:15:34 webserver sshd[7356]: Failed password for invalid user guest from 198.51.100.246 port 34621 ssh2
+Aug 26 04:16:00 webserver sshd[3217]: Failed password for invalid user ubuntu from 203.0.113.39 port 32560 ssh2
+Aug 26 04:18:29 webserver sshd[9845]: Failed password for invalid user guest from 203.0.113.136 port 42607 ssh2
+Aug 26 04:19:04 webserver CRON[4128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 04:21:36 webserver sshd[8943]: Failed password for invalid user ubuntu from 203.0.113.39 port 62450 ssh2
+Aug 26 04:21:58 webserver sshd[1869]: Accepted password for jaswanth from 10.0.4.40 port 31959 ssh2
+Aug 26 04:21:59 webserver sshd[2341]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 04:22:20 webserver sshd[9514]: Received disconnect from 192.0.2.163 port 44674:11: Bye Bye [preauth]
+Aug 26 04:22:34 webserver sshd[4628]: Received disconnect from 192.0.2.56 port 35655:11: Bye Bye [preauth]
+Aug 26 04:22:38 webserver sshd[9943]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 04:22:44 webserver sshd[4307]: Connection reset by 198.51.100.194 port 35242 [preauth]
+Aug 26 04:23:04 webserver sshd[8205]: Connection closed by 192.0.2.85 port 31023 [preauth]
+Aug 26 04:25:49 webserver sshd[9365]: pam_unix(sshd:session): session opened for user jenkins by (uid=0)
+Aug 26 04:26:33 webserver sshd[1781]: Accepted password for alice from 10.0.4.11 port 49443 ssh2
+Aug 26 04:26:34 webserver sshd[1574]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 04:26:46 webserver sudo:  alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 04:27:00 webserver sshd[1599]: Disconnected from authenticating user root 203.0.113.63 port 47291 [preauth]
+Aug 26 04:27:12 webserver sshd[7651]: Failed password for invalid user ubuntu from 203.0.113.39 port 60314 ssh2
+Aug 26 04:28:28 webserver sshd[7151]: Accepted password for alice from 10.0.4.12 port 62427 ssh2
+Aug 26 04:28:29 webserver sshd[7208]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 04:30:29 webserver sshd[5390]: Failed password for invalid user test from 203.0.113.117 port 63313 ssh2
+Aug 26 04:32:48 webserver sshd[2329]: Failed password for invalid user ubuntu from 203.0.113.39 port 49013 ssh2
+Aug 26 04:34:08 webserver sshd[5329]: Failed password for invalid user user from 203.0.113.201 port 56210 ssh2
+Aug 26 04:34:38 webserver sshd[3426]: Failed password for invalid user mysql from 203.0.113.201 port 37574 ssh2
+Aug 26 04:38:22 webserver sshd[7181]: Failed password for invalid user ubuntu from 198.51.100.108 port 54962 ssh2
+Aug 26 04:38:24 webserver sshd[1109]: Failed password for invalid user ubuntu from 203.0.113.39 port 46386 ssh2
+Aug 26 04:38:52 webserver sshd[3304]: Connection closed by 203.0.113.2 port 36650 [preauth]
+Aug 26 04:39:05 webserver sshd[9264]: Failed password for invalid user jenkins from 203.0.113.249 port 34855 ssh2
+Aug 26 04:41:38 webserver sshd[6157]: Connection reset by 203.0.113.76 port 62638 [preauth]
+Aug 26 04:44:00 webserver sshd[4274]: Failed password for invalid user ubuntu from 203.0.113.39 port 48420 ssh2
+Aug 26 04:46:00 webserver sshd[4774]: Failed password for invalid user admin from 192.0.2.144 port 44134 ssh2
+Aug 26 04:46:02 webserver sshd[7058]: message repeated 36 times: [ Failed password for invalid user admin from 192.0.2.144 port 54862 ssh2]
+Aug 26 04:46:18 webserver sshd[6054]: Failed password for invalid user admin from 192.0.2.15 port 42612 ssh2
+Aug 26 04:47:03 webserver sshd[8985]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 04:49:16 webserver sshd[6246]: Connection reset by 203.0.113.135 port 36076 [preauth]
+Aug 26 04:49:36 webserver sshd[7425]: Failed password for invalid user ubuntu from 203.0.113.39 port 30980 ssh2
+Aug 26 04:54:11 webserver CRON[5652]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 04:55:12 webserver sshd[7050]: Failed password for invalid user ubuntu from 203.0.113.39 port 32188 ssh2
+Aug 26 04:56:23 webserver sshd[2906]: Received disconnect from 203.0.113.230 port 33503:11: Bye Bye [preauth]
+Aug 26 04:58:01 webserver sshd[7261]: Connection reset by 198.51.100.121 port 62334 [preauth]
+Aug 26 04:59:28 webserver sshd[5387]: Accepted password for deploy from 10.0.4.11 port 31260 ssh2
+Aug 26 04:59:29 webserver sshd[6319]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 05:00:48 webserver sshd[5906]: Failed password for invalid user ubuntu from 203.0.113.39 port 45258 ssh2
+Aug 26 05:03:45 webserver sudo:  deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 26 05:06:04 webserver sshd[8403]: Accepted publickey for backup from 203.0.113.200 port 50247 ssh2: RSA SHA256:x
+Aug 26 05:06:24 webserver sshd[8081]: Failed password for invalid user ubuntu from 203.0.113.39 port 45571 ssh2
+Aug 26 05:11:58 webserver sshd[4392]: pam_unix(sshd:session): session closed for user backup
+Aug 26 05:12:00 webserver sshd[8364]: Failed password for invalid user ubuntu from 203.0.113.39 port 36338 ssh2
+Aug 26 05:15:13 webserver sshd[8316]: Accepted password for deploy from 10.0.4.15 port 42551 ssh2
+Aug 26 05:15:14 webserver sshd[7912]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 05:15:46 webserver sshd[5768]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Aug 26 05:16:17 webserver sshd[3244]: Failed password for invalid user oracle from 203.0.113.16 port 35307 ssh2
+Aug 26 05:17:36 webserver sshd[6907]: Failed password for invalid user ubuntu from 203.0.113.39 port 40458 ssh2
+Aug 26 05:18:39 webserver sudo:  deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 26 05:19:52 webserver sshd[3466]: Accepted publickey for test from 198.51.100.184 port 31301 ssh2: RSA SHA256:x
+Aug 26 05:22:57 webserver sshd[8473]: Disconnected from authenticating user test 203.0.113.154 port 63006 [preauth]
+Aug 26 05:23:12 webserver sshd[5630]: Failed password for invalid user ubuntu from 203.0.113.39 port 36448 ssh2
+Aug 26 05:24:14 webserver sshd[8055]: Accepted password for postgres from 10.0.4.40 port 43076 ssh2
+Aug 26 05:24:15 webserver sshd[4657]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 05:26:46 webserver sshd[6694]: Disconnected from authenticating user postgres 203.0.113.5 port 46699 [preauth]
+Aug 26 05:27:11 webserver sshd[3611]: Received disconnect from 203.0.113.107 port 45944:11: Bye Bye [preauth]
+Aug 26 05:28:40 webserver sshd[6980]: Failed password for invalid user ubuntu from 198.51.100.142 port 51101 ssh2
+Aug 26 05:28:44 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 05:28:48 webserver sshd[7961]: Failed password for invalid user ubuntu from 203.0.113.39 port 42662 ssh2
+Aug 26 05:31:14 webserver sshd[5489]: Connection reset by 192.0.2.87 port 57464 [preauth]
+Aug 26 05:31:55 webserver sshd[8396]: Connection closed by 198.51.100.114 port 56340 [preauth]
+Aug 26 05:33:43 webserver sshd[5834]: Connection reset by 203.0.113.129 port 63789 [preauth]
+Aug 26 05:34:24 webserver sshd[2445]: Failed password for invalid user ubuntu from 203.0.113.39 port 41741 ssh2
+Aug 26 05:34:42 webserver sshd[8691]: Accepted password for jaswanth from 10.0.4.15 port 56461 ssh2
+Aug 26 05:34:43 webserver sshd[8840]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 05:34:54 webserver sshd[7525]: Accepted publickey for postgres from 203.0.113.8 port 60125 ssh2: RSA SHA256:x
+Aug 26 05:40:00 webserver sshd[5607]: Failed password for invalid user ubuntu from 203.0.113.39 port 35510 ssh2
+Aug 26 05:42:07 webserver sshd[9003]: Received disconnect from 192.0.2.43 port 44345:11: Bye Bye [preauth]
+Aug 26 05:44:41 webserver sshd[9587]: Failed password for invalid user ubuntu from 192.0.2.81 port 59293 ssh2
+Aug 26 05:44:56 webserver sshd[9207]: pam_unix(sshd:session): session closed for user deploy
+Aug 26 05:45:36 webserver sshd[9841]: Failed password for invalid user ubuntu from 203.0.113.39 port 35173 ssh2
+Aug 26 05:49:31 webserver sshd[3774]: Connection closed by 203.0.113.216 port 56150 [preauth]
+Aug 26 05:50:18 webserver sshd[3760]: Disconnected from authenticating user backup 203.0.113.191 port 36874 [preauth]
+Aug 26 05:51:12 webserver sshd[7137]: Failed password for invalid user ubuntu from 203.0.113.39 port 53475 ssh2
+Aug 26 05:52:50 webserver sshd[9619]: Accepted password for ansible from 10.0.4.15 port 41420 ssh2
+Aug 26 05:52:51 webserver sshd[2741]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 26 05:56:13 webserver sshd[1078]: Failed password for invalid user oracle from 198.51.100.11 port 53453 ssh2
+Aug 26 05:56:37 webserver sshd[2397]: Failed password for invalid user oracle from 198.51.100.11 port 61429 ssh2
+Aug 26 05:56:48 webserver sshd[1320]: Failed password for invalid user ubuntu from 203.0.113.39 port 33634 ssh2
+Aug 26 05:57:22 webserver sudo:  ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/journalctl -u api
+Aug 26 05:58:02 webserver sshd[2089]: Received disconnect from 203.0.113.1 port 50599:11: Bye Bye [preauth]
+Aug 26 05:59:56 webserver sshd[5291]: pam_unix(sshd:session): session closed for user mysql
+Aug 26 06:00:57 webserver CRON[9040]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 06:02:24 webserver sshd[2641]: Failed password for invalid user ubuntu from 203.0.113.39 port 45837 ssh2
+Aug 26 06:02:44 webserver sshd[9686]: Failed password for invalid user ftp from 198.51.100.8 port 62564 ssh2
+Aug 26 06:02:46 webserver sshd[8486]: Failed password for invalid user www from 198.51.100.8 port 43974 ssh2
+Aug 26 06:03:41 webserver sshd[8526]: Failed password for invalid user mysql from 192.0.2.79 port 56011 ssh2
+Aug 26 06:04:15 webserver sshd[3508]: Failed password for postgres from 192.0.2.79 port 60365 ssh2
+Aug 26 06:05:40 webserver sshd[4265]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 06:06:15 webserver sshd[8250]: Failed password for invalid user admin from 198.51.100.192 port 64378 ssh2
+Aug 26 06:06:19 webserver sshd[3703]: Failed password for invalid user guest from 198.51.100.192 port 41090 ssh2
+Aug 26 06:07:13 webserver CRON[8815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 06:08:00 webserver sshd[7204]: Failed password for invalid user ubuntu from 203.0.113.39 port 48284 ssh2
+Aug 26 06:10:58 webserver CRON[4914]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 06:13:36 webserver sshd[4845]: Failed password for invalid user ubuntu from 203.0.113.39 port 31345 ssh2
+Aug 26 06:14:57 webserver sshd[7038]: Accepted password for postgres from 10.0.4.15 port 52199 ssh2
+Aug 26 06:14:58 webserver sshd[4981]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 06:16:09 webserver sshd[7764]: Accepted publickey for ftp from 198.51.100.223 port 48208 ssh2: RSA SHA256:x
+Aug 26 06:19:12 webserver sshd[3334]: Failed password for invalid user ubuntu from 203.0.113.39 port 41867 ssh2
+Aug 26 06:23:06 webserver sshd[8628]: Accepted password for backup from 10.0.4.23 port 50668 ssh2
+Aug 26 06:23:07 webserver sshd[8412]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 06:24:41 webserver sshd[8025]: Accepted publickey for pi from 203.0.113.163 port 56251 ssh2: RSA SHA256:x
+Aug 26 06:24:48 webserver sshd[7131]: Failed password for invalid user ubuntu from 203.0.113.39 port 42611 ssh2
+Aug 26 06:24:59 webserver sshd[3516]: Accepted password for alice from 10.0.4.12 port 63247 ssh2
+Aug 26 06:25:00 webserver sshd[5206]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 06:27:42 webserver sshd[6548]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 06:30:24 webserver sshd[4251]: Failed password for invalid user ubuntu from 203.0.113.39 port 61084 ssh2
+Aug 26 06:31:06 webserver sshd[1042]: pam_unix(sshd:session): session closed for user git
+Aug 26 06:32:45 webserver sshd[1399]: Failed password for invalid user jenkins from 198.51.100.210 port 47666 ssh2
+Aug 26 06:32:59 webserver sshd[4344]: Failed password for invalid user www from 198.51.100.210 port 54898 ssh2
+Aug 26 06:34:50 webserver sshd[4280]: Accepted password for alice from 10.0.4.11 port 34885 ssh2
+Aug 26 06:34:51 webserver sshd[6261]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 06:35:02 webserver sshd[2235]: Disconnected from authenticating user oracle 198.51.100.187 port 52818 [preauth]
+Aug 26 06:36:00 webserver sshd[9817]: Failed password for invalid user ubuntu from 203.0.113.39 port 46391 ssh2
+Aug 26 06:40:25 webserver sshd[3097]: Connection reset by 192.0.2.214 port 37981 [preauth]
+Aug 26 06:41:36 webserver sshd[3555]: Failed password for invalid user ubuntu from 203.0.113.39 port 48939 ssh2
+Aug 26 06:42:57 webserver sshd[1644]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 06:43:53 webserver sshd[6392]: Connection reset by 203.0.113.101 port 41408 [preauth]
+Aug 26 06:45:32 webserver CRON[9130]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 06:47:12 webserver sshd[9579]: Failed password for invalid user ubuntu from 203.0.113.39 port 55003 ssh2
+Aug 26 06:50:48 webserver sshd[2334]: Disconnected from authenticating user oracle 192.0.2.36 port 41082 [preauth]
+Aug 26 06:51:45 webserver sshd[7769]: Connection reset by 192.0.2.240 port 33704 [preauth]
+Aug 26 06:52:48 webserver sshd[5573]: Failed password for invalid user ubuntu from 203.0.113.39 port 64112 ssh2
+Aug 26 06:52:50 webserver sshd[1742]: Connection reset by 198.51.100.141 port 54128 [preauth]
+Aug 26 06:57:35 webserver sshd[1696]: pam_unix(sshd:session): session opened for user mysql by (uid=0)
+Aug 26 06:58:24 webserver sshd[5047]: Failed password for invalid user ubuntu from 203.0.113.39 port 33545 ssh2
+Aug 26 06:59:39 webserver sshd[2858]: Disconnected from authenticating user git 192.0.2.107 port 35943 [preauth]
+Aug 26 07:01:07 webserver sshd[2659]: Failed password for postgres from 192.0.2.215 port 31840 ssh2
+Aug 26 07:03:41 webserver sshd[4257]: Received disconnect from 203.0.113.126 port 32012:11: Bye Bye [preauth]
+Aug 26 07:04:00 webserver sshd[3745]: Failed password for invalid user ubuntu from 203.0.113.39 port 45578 ssh2
+Aug 26 07:04:34 webserver sshd[5694]: Connection closed by 203.0.113.96 port 63880 [preauth]
+Aug 26 07:06:09 webserver sshd[9626]: Failed password for invalid user mysql from 203.0.113.210 port 34531 ssh2
+Aug 26 07:06:43 webserver sshd[2984]: Failed password for invalid user admin from 203.0.113.210 port 37854 ssh2
+Aug 26 07:09:36 webserver sshd[7850]: Failed password for invalid user ubuntu from 203.0.113.39 port 54226 ssh2
+Aug 26 07:10:04 webserver sshd[6861]: pam_unix(sshd:session): session closed for user deploy
+Aug 26 07:10:13 webserver sshd[8229]: Received disconnect from 203.0.113.159 port 56427:11: Bye Bye [preauth]
+Aug 26 07:13:20 webserver sshd[6283]: Failed password for invalid user root from 203.0.113.10 port 30990 ssh2
+Aug 26 07:15:12 webserver sshd[1841]: Failed password for invalid user ubuntu from 203.0.113.39 port 38470 ssh2
+Aug 26 07:16:00 webserver sshd[5894]: Connection reset by 198.51.100.143 port 36860 [preauth]
+Aug 26 07:18:23 webserver sshd[2349]: Connection reset by 192.0.2.62 port 45462 [preauth]
+Aug 26 07:19:23 webserver sshd[8001]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Aug 26 07:19:33 webserver sshd[6314]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 07:20:48 webserver sshd[7543]: Failed password for invalid user ubuntu from 203.0.113.39 port 38205 ssh2
+Aug 26 07:26:24 webserver sshd[9175]: Failed password for invalid user ubuntu from 203.0.113.39 port 41211 ssh2
+Aug 26 07:27:58 webserver sshd[3557]: Accepted password for backup from 10.0.4.12 port 30171 ssh2
+Aug 26 07:27:59 webserver sshd[1036]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 07:30:35 webserver sshd[5608]: Received disconnect from 203.0.113.183 port 59321:11: Bye Bye [preauth]
+Aug 26 07:30:52 webserver sshd[5972]: pam_unix(sshd:session): session closed for user git
+Aug 26 07:31:27 webserver sshd[4495]: pam_unix(sshd:session): session closed for user mysql
+Aug 26 07:32:00 webserver sshd[2440]: Failed password for invalid user ubuntu from 203.0.113.39 port 62903 ssh2
+Aug 26 07:34:04 webserver sshd[7565]: Accepted publickey for root from 192.0.2.110 port 30038 ssh2: RSA SHA256:x
+Aug 26 07:34:17 webserver sshd[3105]: Failed password for invalid user jenkins from 203.0.113.96 port 46556 ssh2
+Aug 26 07:36:29 webserver sshd[9825]: Received disconnect from 198.51.100.105 port 57550:11: Bye Bye [preauth]
+Aug 26 07:37:02 webserver CRON[1928]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 07:37:36 webserver sshd[3168]: Failed password for invalid user ubuntu from 203.0.113.39 port 38040 ssh2
+Aug 26 07:39:20 webserver sshd[9911]: Connection closed by 192.0.2.75 port 57620 [preauth]
+Aug 26 07:43:01 webserver sshd[7974]: pam_unix(sshd:session): session closed for user postgres
+Aug 26 07:43:12 webserver sshd[7541]: Failed password for invalid user ubuntu from 203.0.113.39 port 64234 ssh2
+Aug 26 07:47:28 webserver sshd[1305]: Failed password for invalid user user from 203.0.113.23 port 43834 ssh2
+Aug 26 07:47:46 webserver sshd[4876]: Accepted password for jaswanth from 10.0.4.12 port 52952 ssh2
+Aug 26 07:47:47 webserver sshd[9116]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 07:48:48 webserver sshd[8063]: Failed password for invalid user ubuntu from 203.0.113.39 port 62247 ssh2
+Aug 26 07:49:39 webserver sshd[8762]: Accepted password for alice from 10.0.4.15 port 64733 ssh2
+Aug 26 07:49:40 webserver sshd[4943]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 07:50:14 webserver sudo:  jaswanth : TTY=pts/0 ; PWD=/home/jaswanth ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 26 07:54:24 webserver sshd[4254]: Failed password for invalid user ubuntu from 203.0.113.39 port 45375 ssh2
+Aug 26 07:55:01 webserver sshd[5373]: Failed password for invalid user oracle from 192.0.2.160 port 46544 ssh2
+Aug 26 07:55:17 webserver sshd[6464]: Failed password for invalid user mysql from 203.0.113.96 port 47931 ssh2
+Aug 26 07:55:21 webserver sshd[2140]: Connection closed by 203.0.113.133 port 41057 [preauth]
+Aug 26 07:55:42 webserver sshd[6928]: Failed password for invalid user jenkins from 203.0.113.96 port 61477 ssh2
+Aug 26 08:00:00 webserver sshd[6149]: Failed password for invalid user ubuntu from 203.0.113.39 port 59667 ssh2
+Aug 26 08:01:38 webserver sshd[2054]: pam_unix(sshd:session): session closed for user pi
+Aug 26 08:03:05 webserver sshd[8919]: Connection reset by 203.0.113.204 port 33535 [preauth]
+Aug 26 08:04:58 webserver sshd[6634]: Failed password for invalid user ubuntu from 198.51.100.173 port 55653 ssh2
+Aug 26 08:05:27 webserver sshd[6851]: Failed password for invalid user mysql from 198.51.100.173 port 33869 ssh2
+Aug 26 08:05:36 webserver sshd[1795]: Failed password for invalid user ubuntu from 203.0.113.39 port 42750 ssh2
+Aug 26 08:05:53 webserver sshd[7423]: Accepted publickey for ftp from 203.0.113.227 port 30082 ssh2: RSA SHA256:x
+Aug 26 08:07:49 webserver sshd[1389]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 08:11:00 webserver sshd[3536]: Connection closed by 192.0.2.10 port 47536 [preauth]
+Aug 26 08:11:12 webserver sshd[1420]: Failed password for invalid user ubuntu from 203.0.113.39 port 64113 ssh2
+Aug 26 08:13:26 webserver sshd[1165]: Failed password for jaswanth from 10.0.4.12 port 58830 ssh2
+Aug 26 08:13:50 webserver sshd[9682]: Accepted password for jaswanth from 10.0.4.12 port 46014 ssh2
+Aug 26 08:13:51 webserver sshd[9655]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 08:14:17 webserver sshd[5491]: Failed password for jaswanth from 10.0.4.15 port 35266 ssh2
+Aug 26 08:14:32 webserver sshd[8631]: Accepted password for jaswanth from 10.0.4.15 port 30867 ssh2
+Aug 26 08:14:33 webserver sshd[9653]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 08:15:39 webserver sudo:  jaswanth : TTY=pts/0 ; PWD=/home/jaswanth ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 08:15:42 webserver sshd[5283]: pam_unix(sshd:session): session opened for user test by (uid=0)
+Aug 26 08:16:32 webserver sudo:  jaswanth : TTY=pts/0 ; PWD=/home/jaswanth ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 08:16:48 webserver sshd[9871]: Failed password for invalid user ubuntu from 203.0.113.39 port 34831 ssh2
+Aug 26 08:17:25 webserver sshd[7174]: Disconnected from authenticating user user 203.0.113.192 port 36384 [preauth]
+Aug 26 08:21:26 webserver sshd[6397]: Failed password for postgres from 203.0.113.104 port 48975 ssh2
+Aug 26 08:21:43 webserver sshd[1529]: Failed password for invalid user jenkins from 203.0.113.104 port 64363 ssh2
+Aug 26 08:22:24 webserver sshd[7928]: Failed password for invalid user ubuntu from 203.0.113.39 port 34395 ssh2
+Aug 26 08:24:26 webserver sshd[3967]: Received disconnect from 192.0.2.217 port 49493:11: Bye Bye [preauth]
+Aug 26 08:25:45 webserver sshd[8413]: Failed password for invalid user root from 198.51.100.56 port 56807 ssh2
+Aug 26 08:26:11 webserver sshd[9662]: Failed password for invalid user ubuntu from 198.51.100.56 port 64476 ssh2
+Aug 26 08:28:00 webserver sshd[5733]: Failed password for invalid user ubuntu from 203.0.113.39 port 41505 ssh2
+Aug 26 08:32:27 webserver sshd[4061]: Accepted password for postgres from 10.0.4.12 port 33546 ssh2
+Aug 26 08:32:28 webserver sshd[6129]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 08:32:31 webserver sshd[8870]: Accepted password for deploy from 10.0.4.40 port 51800 ssh2
+Aug 26 08:32:32 webserver sshd[3954]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 08:32:41 webserver sshd[3776]: pam_unix(sshd:session): session closed for user root
+Aug 26 08:33:36 webserver sshd[4853]: Failed password for invalid user ubuntu from 203.0.113.39 port 63254 ssh2
+Aug 26 08:33:52 webserver sshd[8228]: Disconnected from authenticating user mysql 203.0.113.142 port 56721 [preauth]
+Aug 26 08:33:57 webserver sshd[9410]: Disconnected from authenticating user root 198.51.100.191 port 36123 [preauth]
+Aug 26 08:35:49 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 08:39:12 webserver sshd[8016]: Failed password for invalid user ubuntu from 203.0.113.39 port 44202 ssh2
+Aug 26 08:39:46 webserver CRON[8567]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 08:40:31 webserver sshd[8040]: Accepted password for backup from 10.0.4.15 port 50669 ssh2
+Aug 26 08:40:32 webserver sshd[4932]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 08:42:53 webserver sshd[4266]: Accepted publickey for mysql from 198.51.100.233 port 55030 ssh2: RSA SHA256:x
+Aug 26 08:43:09 webserver sshd[5687]: Connection reset by 192.0.2.29 port 45595 [preauth]
+Aug 26 08:44:48 webserver sshd[3895]: Failed password for invalid user ubuntu from 203.0.113.39 port 57226 ssh2
+Aug 26 08:49:42 webserver sshd[1889]: Accepted password for ansible from 10.0.4.23 port 41759 ssh2
+Aug 26 08:49:43 webserver sshd[6740]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 26 08:50:24 webserver sshd[7773]: Failed password for invalid user ubuntu from 203.0.113.39 port 50840 ssh2
+Aug 26 08:51:10 webserver sshd[1685]: Failed password for invalid user ftp from 198.51.100.185 port 63235 ssh2
+Aug 26 08:53:57 webserver sshd[9983]: Failed password for postgres from 192.0.2.135 port 38599 ssh2
+Aug 26 08:55:22 webserver sshd[8512]: Received disconnect from 192.0.2.56 port 54754:11: Bye Bye [preauth]
+Aug 26 08:55:38 webserver sshd[9872]: Accepted publickey for root from 198.51.100.157 port 46184 ssh2: RSA SHA256:x
+Aug 26 08:56:00 webserver sshd[1404]: Failed password for invalid user ubuntu from 203.0.113.39 port 43661 ssh2
+Aug 26 09:01:36 webserver sshd[9597]: Failed password for invalid user ubuntu from 203.0.113.39 port 61182 ssh2
+Aug 26 09:04:03 webserver sshd[2546]: Accepted password for postgres from 10.0.4.40 port 63060 ssh2
+Aug 26 09:04:04 webserver sshd[1292]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 09:06:33 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 26 09:07:12 webserver sshd[2158]: Failed password for invalid user ubuntu from 203.0.113.39 port 54093 ssh2
+Aug 26 09:07:53 webserver sshd[8773]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 09:08:51 webserver sshd[2540]: Accepted password for backup from 10.0.4.12 port 38519 ssh2
+Aug 26 09:08:52 webserver sshd[1060]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 09:08:57 webserver sshd[1869]: Failed password for invalid user jenkins from 203.0.113.65 port 37318 ssh2
+Aug 26 09:09:10 webserver sshd[6927]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 26 09:09:19 webserver sshd[2979]: Failed password for invalid user admin from 203.0.113.65 port 38987 ssh2
+Aug 26 09:12:48 webserver sshd[6933]: Failed password for invalid user ubuntu from 203.0.113.39 port 59887 ssh2
+Aug 26 09:18:15 webserver sshd[9046]: Failed password for invalid user admin from 203.0.113.88 port 42718 ssh2
+Aug 26 09:18:24 webserver sshd[8253]: Failed password for invalid user ubuntu from 203.0.113.39 port 49563 ssh2
+Aug 26 09:18:26 webserver sshd[8877]: Failed password for invalid user jenkins from 203.0.113.88 port 64476 ssh2
+Aug 26 09:24:00 webserver sshd[4822]: Failed password for invalid user ubuntu from 203.0.113.39 port 53548 ssh2
+Aug 26 09:29:23 webserver sshd[8121]: Connection closed by 192.0.2.106 port 31045 [preauth]
+Aug 26 09:29:36 webserver sshd[7754]: Failed password for invalid user ubuntu from 203.0.113.39 port 39442 ssh2
+Aug 26 09:31:03 webserver sshd[8462]: Failed password for invalid user test from 198.51.100.217 port 43171 ssh2
+Aug 26 09:31:12 webserver sshd[3580]: Failed password for invalid user pi from 198.51.100.217 port 42590 ssh2
+Aug 26 09:34:22 webserver sshd[7562]: Accepted password for deploy from 10.0.4.12 port 63727 ssh2
+Aug 26 09:34:23 webserver sshd[3272]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 09:34:34 webserver sshd[5418]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 09:35:12 webserver sshd[3745]: Failed password for invalid user ubuntu from 203.0.113.39 port 49164 ssh2
+Aug 26 09:36:25 webserver sshd[8502]: Failed password for invalid user admin from 192.0.2.86 port 60204 ssh2
+Aug 26 09:36:50 webserver sshd[8769]: Accepted password for backup from 10.0.4.15 port 55952 ssh2
+Aug 26 09:36:51 webserver sshd[2844]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 09:37:46 webserver sshd[5803]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 09:38:14 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/bin/journalctl -u api
+Aug 26 09:40:05 webserver sshd[2937]: Received disconnect from 192.0.2.24 port 49768:11: Bye Bye [preauth]
+Aug 26 09:40:06 webserver sshd[6853]: pam_unix(sshd:session): session closed for user test
+Aug 26 09:40:48 webserver sshd[8871]: Failed password for invalid user ubuntu from 203.0.113.39 port 62975 ssh2
+Aug 26 09:44:51 webserver CRON[5994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 09:46:24 webserver sshd[8845]: Failed password for invalid user ubuntu from 203.0.113.39 port 62312 ssh2
+Aug 26 09:52:00 webserver sshd[6035]: Failed password for invalid user ubuntu from 203.0.113.39 port 37294 ssh2
+Aug 26 09:55:58 webserver sshd[5619]: Disconnected from authenticating user jenkins 192.0.2.249 port 38051 [preauth]
+Aug 26 09:57:36 webserver sshd[6258]: Failed password for invalid user ubuntu from 203.0.113.39 port 49937 ssh2
+Aug 26 09:57:52 webserver sshd[7904]: Disconnected from authenticating user user 198.51.100.88 port 44954 [preauth]
+Aug 26 09:59:31 webserver sshd[6595]: Received disconnect from 198.51.100.223 port 51702:11: Bye Bye [preauth]
+Aug 26 09:59:35 webserver sshd[3984]: Accepted password for deploy from 10.0.4.40 port 33339 ssh2
+Aug 26 09:59:36 webserver sshd[7191]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 10:00:56 webserver sshd[2674]: Failed password for invalid user user from 192.0.2.41 port 52953 ssh2
+Aug 26 10:01:15 webserver sshd[2796]: Failed password for invalid user jenkins from 192.0.2.41 port 64097 ssh2
+Aug 26 10:02:21 webserver sshd[8379]: Accepted password for jaswanth from 10.0.4.40 port 56341 ssh2
+Aug 26 10:02:22 webserver sshd[1589]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 10:03:12 webserver sshd[9045]: Failed password for invalid user ubuntu from 203.0.113.39 port 37729 ssh2
+Aug 26 10:08:48 webserver sshd[3205]: Failed password for invalid user ubuntu from 203.0.113.39 port 50508 ssh2
+Aug 26 10:11:29 webserver sshd[4434]: Failed password for invalid user user from 198.51.100.95 port 45531 ssh2
+Aug 26 10:11:45 webserver sshd[3434]: Failed password for invalid user root from 198.51.100.95 port 59065 ssh2
+Aug 26 10:13:19 webserver sshd[1203]: Accepted publickey for deploy from 203.0.113.164 port 30564 ssh2: RSA SHA256:x
+Aug 26 10:14:01 webserver sshd[4836]: Failed password for invalid user mysql from 203.0.113.167 port 50664 ssh2
+Aug 26 10:14:19 webserver sshd[3377]: Failed password for invalid user root from 203.0.113.167 port 58240 ssh2
+Aug 26 10:14:24 webserver sshd[9483]: Failed password for invalid user ubuntu from 203.0.113.39 port 58534 ssh2
+Aug 26 10:18:32 webserver sshd[2612]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 10:18:55 webserver sshd[2337]: Accepted password for postgres from 10.0.4.15 port 40347 ssh2
+Aug 26 10:18:56 webserver sshd[7138]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 10:19:28 webserver CRON[4273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 10:20:00 webserver sshd[8048]: Failed password for invalid user ubuntu from 203.0.113.39 port 57857 ssh2
+Aug 26 10:20:49 webserver sshd[5393]: Connection closed by 198.51.100.227 port 53173 [preauth]
+Aug 26 10:22:54 webserver sshd[7275]: Connection reset by 198.51.100.85 port 40026 [preauth]
+Aug 26 10:25:36 webserver sshd[3476]: Failed password for invalid user ubuntu from 203.0.113.39 port 42157 ssh2
+Aug 26 10:25:39 webserver sshd[2099]: Failed password for invalid user oracle from 198.51.100.23 port 50276 ssh2
+Aug 26 10:25:45 webserver sshd[5473]: Failed password for invalid user ubuntu from 192.0.2.229 port 43167 ssh2
+Aug 26 10:26:01 webserver sshd[2024]: Failed password for invalid user user from 192.0.2.229 port 41495 ssh2
+Aug 26 10:26:16 webserver sshd[9845]: Failed password for invalid user pi from 198.51.100.23 port 31012 ssh2
+Aug 26 10:26:27 webserver sshd[9370]: Received disconnect from 203.0.113.188 port 46983:11: Bye Bye [preauth]
+Aug 26 10:31:12 webserver sshd[6211]: Failed password for invalid user ubuntu from 203.0.113.39 port 33782 ssh2
+Aug 26 10:31:31 webserver sshd[1013]: Failed password for invalid user ftp from 192.0.2.226 port 56883 ssh2
+Aug 26 10:31:42 webserver sshd[9085]: Failed password for invalid user mysql from 192.0.2.226 port 63996 ssh2
+Aug 26 10:35:04 webserver CRON[5133]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 10:36:48 webserver sshd[9108]: Failed password for invalid user ubuntu from 203.0.113.39 port 51605 ssh2
+Aug 26 10:42:12 webserver sshd[1022]: Failed password for invalid user jenkins from 198.51.100.148 port 43573 ssh2
+Aug 26 10:42:24 webserver sshd[8335]: Failed password for invalid user ubuntu from 203.0.113.39 port 54885 ssh2
+Aug 26 10:44:28 webserver sshd[8753]: Failed password for alice from 10.0.4.40 port 63825 ssh2
+Aug 26 10:44:39 webserver sshd[6289]: Accepted password for alice from 10.0.4.40 port 48752 ssh2
+Aug 26 10:44:40 webserver sshd[7030]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 10:48:00 webserver sshd[3566]: Failed password for invalid user ubuntu from 203.0.113.39 port 30227 ssh2
+Aug 26 10:49:21 webserver sshd[4240]: Disconnected from authenticating user www 203.0.113.140 port 42111 [preauth]
+Aug 26 10:53:36 webserver sshd[7325]: Failed password for invalid user ubuntu from 203.0.113.39 port 42065 ssh2
+Aug 26 10:57:08 webserver sshd[3135]: Accepted password for backup from 10.0.4.11 port 38828 ssh2
+Aug 26 10:57:09 webserver sshd[7199]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 10:58:23 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 10:59:12 webserver sshd[3811]: Failed password for invalid user ubuntu from 203.0.113.39 port 39993 ssh2
+Aug 26 11:00:18 webserver sshd[7569]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 11:01:08 webserver sshd[6666]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 11:01:24 webserver sshd[9792]: Failed password for invalid user git from 203.0.113.35 port 60404 ssh2
+Aug 26 11:01:52 webserver sshd[4750]: Failed password for invalid user oracle from 203.0.113.35 port 41626 ssh2
+Aug 26 11:04:48 webserver sshd[9640]: Failed password for invalid user ubuntu from 203.0.113.39 port 31937 ssh2
+Aug 26 11:05:44 webserver sshd[4417]: Connection reset by 203.0.113.12 port 46353 [preauth]
+Aug 26 11:06:30 webserver sshd[2514]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 11:08:54 webserver sshd[7868]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Aug 26 11:10:24 webserver sshd[4062]: Failed password for invalid user ubuntu from 203.0.113.39 port 39336 ssh2
+Aug 26 11:11:00 webserver sshd[2143]: Failed password for invalid user test from 192.0.2.63 port 40759 ssh2
+Aug 26 11:11:03 webserver sshd[9768]: Failed password for invalid user test from 192.0.2.63 port 51784 ssh2
+Aug 26 11:11:04 webserver sshd[4218]: Failed password for invalid user test from 192.0.2.64 port 40778 ssh2
+Aug 26 11:11:09 webserver sshd[9986]: Failed password for invalid user test from 192.0.2.64 port 59769 ssh2
+Aug 26 11:11:11 webserver sshd[6604]: Failed password for invalid user test from 192.0.2.65 port 42527 ssh2
+Aug 26 11:11:16 webserver sshd[9804]: Failed password for invalid user test from 192.0.2.65 port 59034 ssh2
+Aug 26 11:11:21 webserver sshd[1110]: Failed password for invalid user test from 192.0.2.65 port 38247 ssh2
+Aug 26 11:11:26 webserver sshd[7439]: Failed password for invalid user test from 192.0.2.66 port 58660 ssh2
+Aug 26 11:11:31 webserver sshd[8869]: Failed password for invalid user test from 192.0.2.66 port 48821 ssh2
+Aug 26 11:11:35 webserver sshd[9360]: Failed password for invalid user test from 192.0.2.67 port 55558 ssh2
+Aug 26 11:11:39 webserver sshd[9789]: Failed password for invalid user test from 192.0.2.67 port 57833 ssh2
+Aug 26 11:11:42 webserver sshd[3903]: Failed password for invalid user test from 192.0.2.67 port 41528 ssh2
+Aug 26 11:11:43 webserver sshd[5021]: Failed password for invalid user test from 192.0.2.68 port 38087 ssh2
+Aug 26 11:11:45 webserver sshd[2114]: Failed password for invalid user test from 192.0.2.68 port 58217 ssh2
+Aug 26 11:11:48 webserver sshd[3439]: Failed password for invalid user test from 192.0.2.69 port 47655 ssh2
+Aug 26 11:11:53 webserver sshd[1822]: Failed password for invalid user test from 192.0.2.69 port 60697 ssh2
+Aug 26 11:11:54 webserver sshd[2020]: Failed password for invalid user test from 192.0.2.69 port 48449 ssh2
+Aug 26 11:11:58 webserver sshd[4258]: Failed password for invalid user test from 192.0.2.70 port 48276 ssh2
+Aug 26 11:12:00 webserver sshd[9888]: Failed password for invalid user test from 192.0.2.70 port 50191 ssh2
+Aug 26 11:12:05 webserver sshd[9148]: Failed password for invalid user test from 192.0.2.70 port 40039 ssh2
+Aug 26 11:12:09 webserver sshd[3650]: Failed password for invalid user test from 192.0.2.71 port 31272 ssh2
+Aug 26 11:12:12 webserver sshd[8014]: Failed password for invalid user test from 192.0.2.71 port 44401 ssh2
+Aug 26 11:12:15 webserver sshd[6759]: Failed password for invalid user test from 192.0.2.72 port 43603 ssh2
+Aug 26 11:12:18 webserver sshd[2299]: Failed password for invalid user test from 192.0.2.72 port 50744 ssh2
+Aug 26 11:12:22 webserver sshd[7315]: Failed password for invalid user test from 192.0.2.73 port 43877 ssh2
+Aug 26 11:12:27 webserver sshd[7123]: Failed password for invalid user test from 192.0.2.73 port 48897 ssh2
+Aug 26 11:12:29 webserver sshd[1372]: Failed password for invalid user test from 192.0.2.74 port 42616 ssh2
+Aug 26 11:12:32 webserver sshd[2981]: Failed password for invalid user test from 192.0.2.74 port 45088 ssh2
+Aug 26 11:12:35 webserver sshd[6877]: pam_unix(sshd:session): session closed for user ansible
+Aug 26 11:12:37 webserver sshd[3308]: Failed password for invalid user test from 192.0.2.75 port 61190 ssh2
+Aug 26 11:12:39 webserver sshd[8132]: Failed password for invalid user test from 192.0.2.75 port 47280 ssh2
+Aug 26 11:12:44 webserver sshd[3584]: Failed password for invalid user test from 192.0.2.76 port 44957 ssh2
+Aug 26 11:12:48 webserver sshd[2571]: Failed password for invalid user test from 192.0.2.76 port 51197 ssh2
+Aug 26 11:12:53 webserver sshd[4573]: Failed password for invalid user test from 192.0.2.76 port 42959 ssh2
+Aug 26 11:12:58 webserver sshd[7059]: Failed password for invalid user test from 192.0.2.77 port 46987 ssh2
+Aug 26 11:12:59 webserver sshd[2470]: Failed password for invalid user test from 192.0.2.77 port 59549 ssh2
+Aug 26 11:13:02 webserver sshd[9579]: Failed password for invalid user test from 192.0.2.77 port 32668 ssh2
+Aug 26 11:13:06 webserver sshd[3670]: Failed password for invalid user test from 192.0.2.78 port 59638 ssh2
+Aug 26 11:13:10 webserver sshd[3573]: Failed password for invalid user test from 192.0.2.78 port 31064 ssh2
+Aug 26 11:13:11 webserver sshd[8465]: Failed password for invalid user test from 192.0.2.79 port 35752 ssh2
+Aug 26 11:13:13 webserver sshd[3936]: Failed password for invalid user test from 192.0.2.79 port 54066 ssh2
+Aug 26 11:13:14 webserver sshd[3969]: Failed password for invalid user test from 192.0.2.79 port 44471 ssh2
+Aug 26 11:13:19 webserver sshd[5860]: Failed password for invalid user test from 192.0.2.80 port 43175 ssh2
+Aug 26 11:13:24 webserver sshd[1628]: Failed password for invalid user test from 192.0.2.80 port 52706 ssh2
+Aug 26 11:13:25 webserver sshd[8400]: Failed password for invalid user test from 192.0.2.81 port 32043 ssh2
+Aug 26 11:13:28 webserver sshd[5490]: Failed password for invalid user test from 192.0.2.81 port 55380 ssh2
+Aug 26 11:13:47 webserver sshd[3196]: Accepted password for backup from 10.0.4.11 port 35271 ssh2
+Aug 26 11:13:48 webserver sshd[4007]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 11:15:09 webserver sshd[6759]: Accepted password for backup from 10.0.4.12 port 43958 ssh2
+Aug 26 11:15:10 webserver sshd[3704]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 11:15:46 webserver sshd[7866]: Failed password for invalid user test from 198.51.100.193 port 60008 ssh2
+Aug 26 11:15:57 webserver sshd[7907]: Accepted password for backup from 10.0.4.11 port 36618 ssh2
+Aug 26 11:15:58 webserver sshd[3962]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 11:16:00 webserver sshd[6252]: Failed password for invalid user ubuntu from 203.0.113.39 port 33044 ssh2
+Aug 26 11:16:01 webserver sshd[2112]: Failed password for invalid user user from 198.51.100.193 port 58470 ssh2
+Aug 26 11:16:11 webserver CRON[2343]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 11:16:54 webserver sshd[5130]: Failed password for invalid user user from 203.0.113.99 port 31412 ssh2
+Aug 26 11:18:13 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/bin/journalctl -u api
+Aug 26 11:18:26 webserver sshd[5135]: Accepted password for deploy from 10.0.4.23 port 50016 ssh2
+Aug 26 11:18:27 webserver sshd[3995]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 11:18:39 webserver sshd[2204]: Disconnected from authenticating user jenkins 192.0.2.200 port 50434 [preauth]
+Aug 26 11:19:39 webserver sshd[2641]: pam_unix(sshd:session): session closed for user jenkins
+Aug 26 11:19:40 webserver sshd[5168]: Failed password for deploy from 10.0.4.23 port 47359 ssh2
+Aug 26 11:19:56 webserver sshd[9782]: Accepted password for deploy from 10.0.4.23 port 30131 ssh2
+Aug 26 11:19:57 webserver sshd[9318]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 11:21:36 webserver sshd[6124]: Failed password for invalid user ubuntu from 203.0.113.39 port 34894 ssh2
+Aug 26 11:23:56 webserver sshd[7659]: Failed password for backup from 10.0.4.12 port 59215 ssh2
+Aug 26 11:24:07 webserver sshd[5473]: Accepted password for backup from 10.0.4.12 port 42911 ssh2
+Aug 26 11:24:08 webserver sshd[9295]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 11:27:12 webserver sshd[3850]: Failed password for invalid user ubuntu from 203.0.113.39 port 63851 ssh2
+Aug 26 11:28:36 webserver sshd[4551]: Accepted password for alice from 10.0.4.12 port 55223 ssh2
+Aug 26 11:28:37 webserver sshd[2027]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 11:29:10 webserver sshd[1811]: Failed password for invalid user pi from 203.0.113.211 port 59563 ssh2
+Aug 26 11:31:42 webserver sshd[6350]: Connection reset by 203.0.113.20 port 59706 [preauth]
+Aug 26 11:32:39 webserver sshd[3093]: Failed password for invalid user user from 203.0.113.74 port 36855 ssh2
+Aug 26 11:32:48 webserver sshd[2484]: Failed password for invalid user ubuntu from 203.0.113.39 port 46855 ssh2
+Aug 26 11:32:54 webserver sshd[1634]: Failed password for invalid user root from 203.0.113.74 port 62277 ssh2
+Aug 26 11:33:30 webserver sshd[2513]: Received disconnect from 198.51.100.47 port 49030:11: Bye Bye [preauth]
+Aug 26 11:38:24 webserver sshd[6536]: Failed password for invalid user ubuntu from 203.0.113.39 port 40632 ssh2
+Aug 26 11:39:14 webserver sshd[1941]: Connection reset by 192.0.2.39 port 44386 [preauth]
+Aug 26 11:41:05 webserver sshd[9195]: Accepted password for postgres from 10.0.4.40 port 42776 ssh2
+Aug 26 11:41:06 webserver sshd[9260]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 11:43:31 webserver sshd[7519]: Failed password for invalid user root from 192.0.2.105 port 54018 ssh2
+Aug 26 11:44:00 webserver sshd[4013]: Failed password for invalid user ubuntu from 203.0.113.39 port 32366 ssh2
+Aug 26 11:45:00 webserver sshd[1416]: Connection closed by 192.0.2.170 port 57435 [preauth]
+Aug 26 11:49:08 webserver sshd[8090]: Accepted publickey for oracle from 198.51.100.170 port 36839 ssh2: RSA SHA256:x
+Aug 26 11:49:18 webserver sshd[3550]: Failed password for invalid user user from 203.0.113.38 port 48688 ssh2
+Aug 26 11:49:36 webserver sshd[9039]: Failed password for invalid user ubuntu from 203.0.113.39 port 45387 ssh2
+Aug 26 11:49:38 webserver sshd[1838]: Failed password for invalid user user from 192.0.2.103 port 45003 ssh2
+Aug 26 11:49:52 webserver sshd[1369]: Failed password for invalid user oracle from 192.0.2.103 port 52969 ssh2
+Aug 26 11:49:58 webserver sshd[3207]: Accepted password for jaswanth from 10.0.4.23 port 43348 ssh2
+Aug 26 11:49:59 webserver sshd[5449]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 11:53:28 webserver sshd[2977]: Failed password for invalid user ftp from 198.51.100.156 port 58657 ssh2
+Aug 26 11:53:52 webserver sshd[6126]: Accepted publickey for pi from 203.0.113.136 port 55053 ssh2: RSA SHA256:x
+Aug 26 11:53:55 webserver sshd[2256]: Failed password for invalid user guest from 198.51.100.156 port 63202 ssh2
+Aug 26 11:55:12 webserver sshd[2776]: Failed password for invalid user ubuntu from 203.0.113.39 port 57221 ssh2
+Aug 26 11:58:33 webserver sshd[1034]: pam_unix(sshd:session): session opened for user jenkins by (uid=0)
+Aug 26 11:59:04 webserver sshd[7551]: Accepted publickey for ftp from 203.0.113.116 port 53748 ssh2: RSA SHA256:x
+Aug 26 12:00:43 webserver sshd[9526]: Failed password for invalid user ftp from 192.0.2.109 port 35145 ssh2
+Aug 26 12:00:48 webserver sshd[8168]: Failed password for invalid user ubuntu from 203.0.113.39 port 50651 ssh2
+Aug 26 12:02:39 webserver sshd[3640]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 12:03:51 webserver sshd[5143]: Accepted password for alice from 10.0.4.23 port 40233 ssh2
+Aug 26 12:03:52 webserver sshd[5334]: Accepted password for postgres from 10.0.4.15 port 35887 ssh2
+Aug 26 12:03:52 webserver sshd[4768]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 12:03:53 webserver sshd[1661]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 12:06:24 webserver sshd[1037]: Failed password for invalid user ubuntu from 203.0.113.39 port 60868 ssh2
+Aug 26 12:09:13 webserver sshd[4534]: Disconnected from authenticating user postgres 198.51.100.131 port 39183 [preauth]
+Aug 26 12:09:40 webserver sshd[9985]: Accepted password for jaswanth from 10.0.4.23 port 36585 ssh2
+Aug 26 12:09:41 webserver sshd[8009]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 12:10:34 webserver sshd[6083]: pam_unix(sshd:session): session closed for user ftp
+Aug 26 12:12:00 webserver sshd[9160]: Failed password for invalid user ubuntu from 203.0.113.39 port 33724 ssh2
+Aug 26 12:14:31 webserver sshd[7306]: Connection closed by 198.51.100.98 port 54806 [preauth]
+Aug 26 12:14:45 webserver sshd[5641]: Failed password for invalid user www from 192.0.2.144 port 46316 ssh2
+Aug 26 12:15:04 webserver sshd[5617]: Failed password for invalid user oracle from 192.0.2.22 port 61269 ssh2
+Aug 26 12:17:06 webserver sshd[7305]: Failed password for invalid user jenkins from 203.0.113.74 port 60238 ssh2
+Aug 26 12:17:24 webserver sshd[8152]: Failed password for invalid user user from 198.51.100.223 port 49041 ssh2
+Aug 26 12:17:27 webserver sshd[7913]: Disconnected from authenticating user git 192.0.2.99 port 64861 [preauth]
+Aug 26 12:17:36 webserver sshd[1062]: Failed password for invalid user ubuntu from 203.0.113.39 port 63249 ssh2
+Aug 26 12:17:41 webserver sshd[7843]: Failed password for invalid user guest from 198.51.100.223 port 45361 ssh2
+Aug 26 12:17:49 webserver sshd[9839]: Failed password for invalid user jenkins from 192.0.2.42 port 41599 ssh2
+Aug 26 12:17:53 webserver sshd[7821]: pam_unix(sshd:session): session closed for user pi
+Aug 26 12:18:28 webserver sshd[4707]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Aug 26 12:18:29 webserver sshd[9866]: Failed password for invalid user pi from 192.0.2.42 port 55248 ssh2
+Aug 26 12:21:35 webserver sshd[8152]: Failed password for invalid user pi from 198.51.100.53 port 63293 ssh2
+Aug 26 12:23:12 webserver sshd[5479]: Failed password for invalid user ubuntu from 203.0.113.39 port 39909 ssh2
+Aug 26 12:24:21 webserver sshd[2408]: Failed password for invalid user pi from 198.51.100.129 port 42589 ssh2
+Aug 26 12:24:44 webserver sshd[1511]: Failed password for invalid user ftp from 203.0.113.240 port 60613 ssh2
+Aug 26 12:26:02 webserver sshd[5530]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 12:27:27 webserver sshd[3600]: pam_unix(sshd:session): session opened for user ftp by (uid=0)
+Aug 26 12:27:29 webserver CRON[6238]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 12:28:48 webserver sshd[7361]: Failed password for invalid user ubuntu from 203.0.113.39 port 55527 ssh2
+Aug 26 12:30:03 webserver sshd[4365]: Connection closed by 192.0.2.156 port 36961 [preauth]
+Aug 26 12:33:08 webserver sshd[5266]: Accepted password for backup from 10.0.4.11 port 30086 ssh2
+Aug 26 12:33:09 webserver sshd[5025]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 12:33:35 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 12:34:24 webserver sshd[5856]: Failed password for invalid user ubuntu from 203.0.113.39 port 63461 ssh2
+Aug 26 12:36:22 webserver CRON[5468]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 12:39:10 webserver sshd[6786]: Disconnected from authenticating user user 203.0.113.139 port 39530 [preauth]
+Aug 26 12:40:00 webserver sshd[5918]: Failed password for invalid user ubuntu from 203.0.113.39 port 57308 ssh2
+Aug 26 12:44:22 webserver sshd[8690]: Disconnected from authenticating user ubuntu 192.0.2.9 port 38696 [preauth]
+Aug 26 12:45:36 webserver sshd[1341]: Failed password for invalid user ubuntu from 203.0.113.39 port 64337 ssh2
+Aug 26 12:46:31 webserver sshd[6600]: Connection closed by 198.51.100.150 port 30377 [preauth]
+Aug 26 12:49:12 webserver sshd[3544]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Aug 26 12:51:12 webserver sshd[8906]: Failed password for invalid user ubuntu from 203.0.113.39 port 41713 ssh2
+Aug 26 12:51:44 webserver sshd[2484]: Failed password for invalid user admin from 198.51.100.147 port 33818 ssh2
+Aug 26 12:52:16 webserver sshd[9002]: Failed password for invalid user test from 198.51.100.147 port 58089 ssh2
+Aug 26 12:56:48 webserver sshd[3393]: Failed password for invalid user ubuntu from 203.0.113.39 port 59413 ssh2
+Aug 26 13:00:46 webserver sshd[5477]: Accepted password for postgres from 10.0.4.15 port 46461 ssh2
+Aug 26 13:00:47 webserver sshd[8641]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 13:02:15 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 13:02:24 webserver sshd[6629]: Failed password for invalid user ubuntu from 203.0.113.39 port 45663 ssh2
+Aug 26 13:08:00 webserver sshd[6925]: Failed password for invalid user ubuntu from 203.0.113.39 port 36764 ssh2
+Aug 26 13:10:54 webserver sshd[8943]: Accepted publickey for test from 192.0.2.238 port 30703 ssh2: RSA SHA256:x
+Aug 26 13:13:36 webserver sshd[3280]: Failed password for invalid user ubuntu from 203.0.113.39 port 60835 ssh2
+Aug 26 13:18:32 webserver sshd[5239]: Disconnected from authenticating user backup 203.0.113.240 port 50329 [preauth]
+Aug 26 13:19:12 webserver sshd[7911]: Failed password for invalid user ubuntu from 203.0.113.39 port 59203 ssh2
+Aug 26 13:23:53 webserver sshd[1781]: pam_unix(sshd:session): session closed for user jaswanth
+Aug 26 13:24:06 webserver sshd[1808]: Accepted password for backup from 10.0.4.11 port 54524 ssh2
+Aug 26 13:24:07 webserver sshd[8033]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 13:24:48 webserver sshd[9566]: Failed password for invalid user ubuntu from 203.0.113.39 port 53660 ssh2
+Aug 26 13:26:14 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 26 13:27:14 webserver sshd[5839]: Connection reset by 203.0.113.22 port 56263 [preauth]
+Aug 26 13:28:48 webserver sshd[4713]: Failed password for postgres from 192.0.2.164 port 49966 ssh2
+Aug 26 13:30:24 webserver sshd[6096]: Failed password for invalid user ubuntu from 203.0.113.39 port 43690 ssh2
+Aug 26 13:30:37 webserver sshd[5676]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 13:30:46 webserver sshd[4859]: Failed password for jaswanth from 10.0.4.40 port 55000 ssh2
+Aug 26 13:31:07 webserver sshd[4549]: Accepted password for jaswanth from 10.0.4.40 port 54975 ssh2
+Aug 26 13:31:08 webserver sshd[3748]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 13:32:34 webserver sshd[1584]: pam_unix(sshd:session): session closed for user jaswanth
+Aug 26 13:33:26 webserver sudo:  jaswanth : TTY=pts/0 ; PWD=/home/jaswanth ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 13:36:00 webserver sshd[3012]: Failed password for invalid user ubuntu from 203.0.113.39 port 42421 ssh2
+Aug 26 13:37:35 webserver sshd[4824]: Accepted password for postgres from 10.0.4.23 port 33185 ssh2
+Aug 26 13:37:36 webserver sshd[8812]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 13:38:32 webserver sshd[8177]: Failed password for alice from 10.0.4.15 port 58002 ssh2
+Aug 26 13:38:54 webserver sshd[4916]: Accepted password for alice from 10.0.4.15 port 54151 ssh2
+Aug 26 13:38:55 webserver sshd[7138]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 13:39:12 webserver sshd[8984]: Failed password for postgres from 203.0.113.101 port 52655 ssh2
+Aug 26 13:39:16 webserver sshd[9999]: Accepted publickey for ftp from 203.0.113.41 port 41747 ssh2: RSA SHA256:x
+Aug 26 13:39:43 webserver CRON[8981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 13:41:36 webserver sshd[7611]: Failed password for invalid user ubuntu from 203.0.113.39 port 54606 ssh2
+Aug 26 13:42:21 webserver sshd[2699]: Failed password for invalid user user from 203.0.113.124 port 56943 ssh2
+Aug 26 13:47:12 webserver sshd[4655]: Failed password for invalid user ubuntu from 203.0.113.39 port 33598 ssh2
+Aug 26 13:48:40 webserver sshd[3861]: Accepted password for jaswanth from 10.0.4.12 port 44089 ssh2
+Aug 26 13:48:41 webserver sshd[4153]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 13:49:04 webserver sshd[4803]: Failed password for invalid user ftp from 192.0.2.14 port 59523 ssh2
+Aug 26 13:49:27 webserver sshd[1186]: Failed password for invalid user jenkins from 192.0.2.14 port 33579 ssh2
+Aug 26 13:50:42 webserver sudo:  jaswanth : TTY=pts/0 ; PWD=/home/jaswanth ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 26 13:52:48 webserver sshd[2323]: Failed password for invalid user ubuntu from 203.0.113.39 port 60539 ssh2
+Aug 26 13:56:24 webserver sshd[3476]: Connection closed by 198.51.100.76 port 30111 [preauth]
+Aug 26 13:57:18 webserver sshd[6101]: Failed password for invalid user ftp from 203.0.113.31 port 51545 ssh2
+Aug 26 13:57:35 webserver sshd[7808]: Accepted password for backup from 10.0.4.40 port 41021 ssh2
+Aug 26 13:57:36 webserver sshd[7550]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 13:57:56 webserver sshd[9528]: Failed password for invalid user guest from 203.0.113.31 port 63078 ssh2
+Aug 26 13:58:24 webserver sshd[4808]: Failed password for invalid user ubuntu from 203.0.113.39 port 35917 ssh2
+Aug 26 13:59:14 webserver sshd[4041]: Accepted password for backup from 10.0.4.40 port 46566 ssh2
+Aug 26 13:59:15 webserver sshd[6181]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 14:00:07 webserver sshd[7206]: pam_unix(sshd:session): session closed for user postgres
+Aug 26 14:04:00 webserver sshd[4313]: Failed password for invalid user ubuntu from 203.0.113.39 port 46291 ssh2
+Aug 26 14:04:32 webserver sshd[3994]: Connection closed by 192.0.2.81 port 36249 [preauth]
+Aug 26 14:05:07 webserver sshd[2302]: Accepted publickey for pi from 198.51.100.36 port 56454 ssh2: RSA SHA256:x
+Aug 26 14:05:53 webserver sshd[9329]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 14:07:21 webserver sshd[8515]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Aug 26 14:07:33 webserver sshd[8926]: Connection reset by 192.0.2.1 port 55338 [preauth]
+Aug 26 14:07:51 webserver sshd[5074]: Accepted password for ansible from 10.0.4.40 port 57949 ssh2
+Aug 26 14:07:52 webserver sshd[9030]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 26 14:09:36 webserver sshd[8351]: Failed password for invalid user ubuntu from 203.0.113.39 port 45184 ssh2
+Aug 26 14:10:18 webserver sudo:  ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 26 14:11:33 webserver sshd[6299]: Received disconnect from 203.0.113.95 port 36638:11: Bye Bye [preauth]
+Aug 26 14:14:28 webserver sshd[4137]: Disconnected from authenticating user pi 192.0.2.190 port 36863 [preauth]
+Aug 26 14:15:12 webserver sshd[4869]: Failed password for invalid user ubuntu from 203.0.113.39 port 33098 ssh2
+Aug 26 14:16:58 webserver sshd[5482]: Failed password for invalid user ftp from 192.0.2.168 port 56324 ssh2
+Aug 26 14:17:16 webserver sshd[5200]: Failed password for invalid user ftp from 192.0.2.168 port 56518 ssh2
+Aug 26 14:20:48 webserver sshd[4464]: Failed password for invalid user ubuntu from 203.0.113.39 port 40594 ssh2
+Aug 26 14:21:18 webserver sshd[4639]: Failed password for invalid user git from 203.0.113.253 port 39885 ssh2
+Aug 26 14:21:37 webserver sshd[6030]: Failed password for postgres from 203.0.113.253 port 35713 ssh2
+Aug 26 14:26:24 webserver sshd[5925]: Failed password for invalid user ubuntu from 203.0.113.39 port 38283 ssh2
+Aug 26 14:29:39 webserver sshd[7056]: Connection closed by 198.51.100.59 port 39408 [preauth]
+Aug 26 14:30:21 webserver sshd[1275]: Connection closed by 203.0.113.153 port 34157 [preauth]
+Aug 26 14:30:47 webserver sshd[2904]: Connection reset by 203.0.113.29 port 49645 [preauth]
+Aug 26 14:31:45 webserver sshd[7931]: Failed password for invalid user jenkins from 203.0.113.196 port 41899 ssh2
+Aug 26 14:32:00 webserver sshd[7279]: Failed password for invalid user ubuntu from 203.0.113.39 port 63394 ssh2
+Aug 26 14:33:16 webserver sshd[9402]: Failed password for invalid user root from 192.0.2.228 port 61433 ssh2
+Aug 26 14:33:38 webserver sshd[8155]: Failed password for invalid user git from 192.0.2.228 port 35462 ssh2
+Aug 26 14:35:32 webserver sshd[2638]: pam_unix(sshd:session): session closed for user alice
+Aug 26 14:37:36 webserver sshd[7736]: Failed password for invalid user ubuntu from 203.0.113.39 port 31873 ssh2
+Aug 26 14:39:52 webserver sshd[2963]: Failed password for invalid user test from 192.0.2.43 port 55732 ssh2
+Aug 26 14:40:46 webserver sshd[8414]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 26 14:42:09 webserver sshd[7919]: Disconnected from authenticating user postgres 192.0.2.134 port 55421 [preauth]
+Aug 26 14:43:12 webserver sshd[5798]: Failed password for invalid user ubuntu from 203.0.113.39 port 37134 ssh2
+Aug 26 14:47:22 webserver sshd[2045]: Failed password for invalid user www from 198.51.100.239 port 52518 ssh2
+Aug 26 14:47:29 webserver sshd[1199]: Failed password for invalid user guest from 198.51.100.239 port 55896 ssh2
+Aug 26 14:48:48 webserver sshd[6043]: Failed password for invalid user ubuntu from 203.0.113.39 port 44254 ssh2
+Aug 26 14:49:38 webserver sshd[1176]: Failed password for invalid user root from 192.0.2.250 port 43788 ssh2
+Aug 26 14:52:46 webserver sshd[4828]: Failed password for invalid user root from 203.0.113.42 port 34957 ssh2
+Aug 26 14:53:34 webserver sshd[5406]: Connection reset by 198.51.100.234 port 35402 [preauth]
+Aug 26 14:54:24 webserver sshd[9137]: Failed password for invalid user ubuntu from 203.0.113.39 port 55855 ssh2
+Aug 26 15:00:00 webserver sshd[6334]: Failed password for invalid user ubuntu from 203.0.113.39 port 52413 ssh2
+Aug 26 15:03:00 webserver sshd[6990]: Failed password for invalid user test from 203.0.113.192 port 32757 ssh2
+Aug 26 15:03:05 webserver sshd[9297]: Failed password for invalid user www from 203.0.113.192 port 47259 ssh2
+Aug 26 15:03:14 webserver sshd[1309]: Failed password for invalid user ftp from 203.0.113.192 port 38266 ssh2
+Aug 26 15:03:26 webserver sshd[2568]: Failed password for invalid user pi from 203.0.113.192 port 47329 ssh2
+Aug 26 15:03:35 webserver sshd[8103]: Failed password for invalid user admin from 203.0.113.192 port 44376 ssh2
+Aug 26 15:03:47 webserver sshd[8841]: Failed password for postgres from 203.0.113.192 port 53942 ssh2
+Aug 26 15:03:56 webserver sshd[9767]: Failed password for invalid user git from 203.0.113.192 port 43149 ssh2
+Aug 26 15:04:04 webserver sshd[2349]: Failed password for invalid user user from 203.0.113.192 port 58545 ssh2
+Aug 26 15:04:09 webserver sshd[5256]: Failed password for invalid user root from 203.0.113.192 port 48499 ssh2
+Aug 26 15:04:18 webserver sshd[8968]: Failed password for invalid user guest from 203.0.113.192 port 43565 ssh2
+Aug 26 15:05:36 webserver sshd[7019]: Failed password for invalid user ubuntu from 203.0.113.39 port 57221 ssh2
+Aug 26 15:06:44 webserver sshd[1857]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Aug 26 15:07:26 webserver sshd[6735]: Disconnected from authenticating user deploy 192.0.2.42 port 33569 [preauth]
+Aug 26 15:11:12 webserver sshd[9479]: Failed password for invalid user ubuntu from 203.0.113.39 port 38247 ssh2
+Aug 26 15:11:33 webserver CRON[8476]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 15:12:23 webserver sshd[8378]: Disconnected from authenticating user jaswanth 203.0.113.102 port 42180 [preauth]
+Aug 26 15:15:28 webserver sshd[9346]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 15:15:33 webserver sshd[7156]: Connection reset by 198.51.100.201 port 44394 [preauth]
+Aug 26 15:16:48 webserver sshd[2363]: Failed password for invalid user ubuntu from 203.0.113.39 port 61763 ssh2
+Aug 26 15:18:00 webserver sshd[6476]: Disconnected from authenticating user ftp 192.0.2.105 port 61687 [preauth]
+Aug 26 15:21:54 webserver sshd[6199]: Failed password for invalid user test from 192.0.2.206 port 44334 ssh2
+Aug 26 15:22:24 webserver sshd[1986]: Failed password for invalid user ubuntu from 203.0.113.39 port 39155 ssh2
+Aug 26 15:24:46 webserver sshd[4621]: pam_unix(sshd:session): session closed for user ansible
+Aug 26 15:26:55 webserver sshd[9539]: pam_unix(sshd:session): session closed for user alice
+Aug 26 15:28:00 webserver sshd[2380]: Failed password for invalid user ubuntu from 203.0.113.39 port 45272 ssh2
+Aug 26 15:28:54 webserver sshd[5860]: Failed password for invalid user ftp from 198.51.100.103 port 46761 ssh2
+Aug 26 15:29:09 webserver sshd[9313]: Accepted password for postgres from 10.0.4.11 port 35128 ssh2
+Aug 26 15:29:10 webserver sshd[1863]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 15:30:36 webserver sshd[9045]: Accepted password for backup from 10.0.4.15 port 38471 ssh2
+Aug 26 15:30:37 webserver sshd[5000]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 15:31:06 webserver CRON[7184]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 15:31:26 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 15:33:36 webserver sshd[9832]: Failed password for invalid user ubuntu from 203.0.113.39 port 50293 ssh2
+Aug 26 15:33:55 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 15:35:59 webserver sshd[8644]: Failed password for invalid user oracle from 192.0.2.153 port 46238 ssh2
+Aug 26 15:37:19 webserver sshd[1028]: Failed password for invalid user www from 198.51.100.60 port 60317 ssh2
+Aug 26 15:37:59 webserver sshd[4300]: Failed password for invalid user www from 198.51.100.60 port 62145 ssh2
+Aug 26 15:38:54 webserver sshd[2725]: Disconnected from authenticating user ftp 198.51.100.216 port 55400 [preauth]
+Aug 26 15:39:12 webserver sshd[8815]: Failed password for invalid user ubuntu from 203.0.113.39 port 31147 ssh2
+Aug 26 15:40:12 webserver CRON[9530]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 15:42:30 webserver sshd[8152]: Failed password for invalid user user from 203.0.113.107 port 44701 ssh2
+Aug 26 15:42:33 webserver sshd[4792]: Failed password for invalid user pi from 203.0.113.107 port 64797 ssh2
+Aug 26 15:44:48 webserver sshd[9076]: Failed password for invalid user ubuntu from 203.0.113.39 port 33778 ssh2
+Aug 26 15:45:05 webserver sshd[9577]: Failed password for invalid user ubuntu from 198.51.100.117 port 45012 ssh2
+Aug 26 15:50:24 webserver sshd[2562]: Failed password for invalid user ubuntu from 203.0.113.39 port 59262 ssh2
+Aug 26 15:50:53 webserver sshd[9689]: Failed password for postgres from 198.51.100.88 port 38895 ssh2
+Aug 26 15:55:46 webserver sshd[3584]: Connection reset by 198.51.100.52 port 58979 [preauth]
+Aug 26 15:56:00 webserver sshd[3939]: Failed password for invalid user ubuntu from 203.0.113.39 port 60024 ssh2
+Aug 26 15:56:27 webserver sshd[1469]: pam_unix(sshd:session): session opened for user ftp by (uid=0)
+Aug 26 15:59:46 webserver sshd[4332]: Received disconnect from 198.51.100.192 port 56054:11: Bye Bye [preauth]
+Aug 26 16:00:45 webserver sshd[1004]: Failed password for invalid user ubuntu from 203.0.113.51 port 61947 ssh2
+Aug 26 16:00:54 webserver sshd[6609]: Failed password for invalid user git from 203.0.113.51 port 43078 ssh2
+Aug 26 16:01:36 webserver sshd[2344]: Failed password for invalid user ubuntu from 203.0.113.39 port 47348 ssh2
+Aug 26 16:06:09 webserver sshd[6373]: Failed password for invalid user mysql from 198.51.100.148 port 43000 ssh2
+Aug 26 16:07:12 webserver sshd[7117]: Failed password for invalid user ubuntu from 203.0.113.39 port 54986 ssh2
+Aug 26 16:07:22 webserver sshd[1223]: pam_unix(sshd:session): session closed for user pi
+Aug 26 16:09:57 webserver CRON[6589]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 16:10:36 webserver CRON[9355]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 16:11:13 webserver sshd[2641]: Failed password for invalid user ubuntu from 198.51.100.58 port 49468 ssh2
+Aug 26 16:12:48 webserver sshd[2026]: Failed password for invalid user ubuntu from 203.0.113.39 port 57164 ssh2
+Aug 26 16:13:11 webserver sshd[4284]: Failed password for invalid user guest from 198.51.100.76 port 46452 ssh2
+Aug 26 16:13:19 webserver sshd[4738]: Failed password for invalid user user from 198.51.100.76 port 37647 ssh2
+Aug 26 16:14:39 webserver sshd[9777]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 26 16:18:24 webserver sshd[4856]: Failed password for invalid user ubuntu from 203.0.113.39 port 59882 ssh2
+Aug 26 16:20:24 webserver sshd[9562]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 16:21:01 webserver sshd[8002]: Failed password for invalid user admin from 198.51.100.86 port 36143 ssh2
+Aug 26 16:21:16 webserver sshd[8301]: Accepted password for alice from 10.0.4.40 port 41257 ssh2
+Aug 26 16:21:17 webserver sshd[3601]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 16:23:08 webserver sudo:  alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 16:24:00 webserver sshd[4279]: Failed password for invalid user ubuntu from 203.0.113.39 port 46383 ssh2
+Aug 26 16:27:00 webserver sshd[5917]: Failed password for invalid user pi from 203.0.113.35 port 40487 ssh2
+Aug 26 16:29:02 webserver sshd[8173]: pam_unix(sshd:session): session opened for user ftp by (uid=0)
+Aug 26 16:29:36 webserver sshd[8568]: Failed password for invalid user ubuntu from 203.0.113.39 port 47172 ssh2
+Aug 26 16:30:43 webserver sshd[4991]: Failed password for invalid user oracle from 192.0.2.218 port 40285 ssh2
+Aug 26 16:31:03 webserver sshd[6125]: Failed password for invalid user ftp from 192.0.2.218 port 54659 ssh2
+Aug 26 16:31:13 webserver sshd[9911]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 16:33:35 webserver sshd[4814]: pam_unix(sshd:session): session closed for user postgres
+Aug 26 16:34:02 webserver sshd[7458]: Disconnected from authenticating user pi 198.51.100.134 port 30499 [preauth]
+Aug 26 16:34:48 webserver sshd[8924]: Accepted password for alice from 10.0.4.11 port 59643 ssh2
+Aug 26 16:34:49 webserver sshd[1472]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 16:34:58 webserver sshd[4154]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 16:35:12 webserver sshd[6920]: Failed password for invalid user ubuntu from 203.0.113.39 port 41083 ssh2
+Aug 26 16:38:13 webserver CRON[9216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 16:40:48 webserver sshd[1043]: Failed password for invalid user ubuntu from 203.0.113.39 port 31897 ssh2
+Aug 26 16:45:39 webserver sshd[3252]: Disconnected from authenticating user pi 198.51.100.7 port 49548 [preauth]
+Aug 26 16:46:24 webserver sshd[2727]: Failed password for invalid user ubuntu from 203.0.113.39 port 37447 ssh2
+Aug 26 16:49:35 webserver sshd[1018]: Failed password for invalid user git from 192.0.2.84 port 57388 ssh2
+Aug 26 16:52:00 webserver sshd[9314]: Failed password for invalid user ubuntu from 203.0.113.39 port 39937 ssh2
+Aug 26 16:57:36 webserver sshd[9353]: Failed password for invalid user ubuntu from 203.0.113.39 port 37178 ssh2
+Aug 26 16:58:31 webserver sshd[9282]: Accepted password for jaswanth from 10.0.4.12 port 50924 ssh2
+Aug 26 16:58:32 webserver sshd[6922]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 17:01:09 webserver sshd[3407]: Failed password for invalid user pi from 192.0.2.172 port 33582 ssh2
+Aug 26 17:01:31 webserver sshd[3580]: Failed password for postgres from 192.0.2.172 port 34502 ssh2
+Aug 26 17:03:12 webserver sshd[3279]: Failed password for invalid user ubuntu from 203.0.113.39 port 31584 ssh2
+Aug 26 17:05:32 webserver sshd[5975]: Failed password for invalid user www from 203.0.113.19 port 58230 ssh2
+Aug 26 17:08:48 webserver sshd[1954]: Accepted publickey for backup from 203.0.113.201 port 46690 ssh2: RSA SHA256:x
+Aug 26 17:08:48 webserver sshd[7005]: Failed password for invalid user ubuntu from 203.0.113.39 port 50828 ssh2
+Aug 26 17:10:44 webserver sshd[9763]: Failed password for invalid user root from 203.0.113.212 port 51363 ssh2
+Aug 26 17:14:24 webserver sshd[8385]: Failed password for invalid user ubuntu from 203.0.113.39 port 53574 ssh2
+Aug 26 17:14:47 webserver sshd[8837]: Failed password for invalid user www from 198.51.100.134 port 51603 ssh2
+Aug 26 17:15:01 webserver sshd[3956]: Failed password for postgres from 198.51.100.134 port 37641 ssh2
+Aug 26 17:20:00 webserver sshd[4498]: Failed password for invalid user ubuntu from 203.0.113.39 port 61369 ssh2
+Aug 26 17:22:11 webserver sshd[8344]: pam_unix(sshd:session): session closed for user postgres
+Aug 26 17:22:35 webserver sshd[9098]: Accepted password for postgres from 10.0.4.23 port 47073 ssh2
+Aug 26 17:22:36 webserver sshd[4443]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 17:24:06 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/bin/journalctl -u api
+Aug 26 17:24:10 webserver sshd[6738]: Failed password for invalid user git from 192.0.2.90 port 45983 ssh2
+Aug 26 17:24:23 webserver sshd[5281]: Failed password for invalid user git from 192.0.2.90 port 54375 ssh2
+Aug 26 17:25:36 webserver sshd[8852]: Failed password for invalid user ubuntu from 203.0.113.39 port 30984 ssh2
+Aug 26 17:29:49 webserver sshd[8009]: Accepted password for backup from 10.0.4.40 port 54461 ssh2
+Aug 26 17:29:50 webserver sshd[2293]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 17:31:12 webserver sshd[1576]: Failed password for invalid user ubuntu from 203.0.113.39 port 30846 ssh2
+Aug 26 17:33:48 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/bin/journalctl -u api
+Aug 26 17:36:48 webserver sshd[5494]: Failed password for invalid user ubuntu from 203.0.113.39 port 34629 ssh2
+Aug 26 17:38:14 webserver sshd[1680]: Failed password for postgres from 198.51.100.79 port 54362 ssh2
+Aug 26 17:42:24 webserver sshd[5766]: Failed password for invalid user ubuntu from 203.0.113.39 port 62727 ssh2
+Aug 26 17:45:31 webserver sshd[4718]: Accepted password for jaswanth from 10.0.4.40 port 56636 ssh2
+Aug 26 17:45:32 webserver sshd[9627]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 17:46:35 webserver sshd[1944]: Failed password for invalid user git from 192.0.2.107 port 31992 ssh2
+Aug 26 17:46:44 webserver sshd[9722]: Failed password for invalid user admin from 192.0.2.107 port 33284 ssh2
+Aug 26 17:47:30 webserver sudo:  jaswanth : TTY=pts/0 ; PWD=/home/jaswanth ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 17:48:00 webserver sshd[1830]: Failed password for invalid user ubuntu from 203.0.113.39 port 54945 ssh2
+Aug 26 17:48:21 webserver sshd[4039]: pam_unix(sshd:session): session closed for user jaswanth
+Aug 26 17:48:23 webserver sshd[1214]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 26 17:52:35 webserver sshd[4857]: Failed password for invalid user user from 192.0.2.194 port 63396 ssh2
+Aug 26 17:53:36 webserver sshd[6398]: Failed password for invalid user ubuntu from 203.0.113.39 port 32169 ssh2
+Aug 26 17:54:29 webserver sshd[6580]: Accepted password for deploy from 10.0.4.40 port 33483 ssh2
+Aug 26 17:54:30 webserver sshd[7467]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 17:55:58 webserver sshd[7719]: Failed password for alice from 10.0.4.11 port 44275 ssh2
+Aug 26 17:56:02 webserver sshd[1817]: Accepted password for alice from 10.0.4.11 port 64301 ssh2
+Aug 26 17:56:03 webserver sshd[6547]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 17:59:12 webserver sshd[5552]: Failed password for invalid user ubuntu from 203.0.113.39 port 37096 ssh2
+Aug 26 18:00:14 webserver sshd[4936]: Received disconnect from 198.51.100.36 port 62123:11: Bye Bye [preauth]
+Aug 26 18:04:48 webserver sshd[7319]: Failed password for invalid user ubuntu from 203.0.113.39 port 38215 ssh2
+Aug 26 18:07:35 webserver sshd[8123]: Received disconnect from 203.0.113.13 port 33163:11: Bye Bye [preauth]
+Aug 26 18:08:51 webserver sshd[2848]: Received disconnect from 203.0.113.73 port 53194:11: Bye Bye [preauth]
+Aug 26 18:09:25 webserver sshd[8051]: Failed password for invalid user ubuntu from 203.0.113.242 port 64837 ssh2
+Aug 26 18:10:24 webserver sshd[4595]: Failed password for invalid user ubuntu from 203.0.113.39 port 38455 ssh2
+Aug 26 18:10:45 webserver sshd[9203]: Disconnected from authenticating user test 192.0.2.245 port 49948 [preauth]
+Aug 26 18:11:13 webserver sshd[2682]: Failed password for invalid user oracle from 198.51.100.227 port 46724 ssh2
+Aug 26 18:11:45 webserver sshd[1826]: Failed password for invalid user guest from 198.51.100.42 port 33311 ssh2
+Aug 26 18:11:50 webserver sshd[1383]: Failed password for invalid user jenkins from 198.51.100.42 port 30116 ssh2
+Aug 26 18:15:51 webserver CRON[6276]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 18:15:56 webserver sshd[7128]: pam_unix(sshd:session): session opened for user git by (uid=0)
+Aug 26 18:16:00 webserver sshd[2560]: Failed password for invalid user ubuntu from 203.0.113.39 port 58787 ssh2
+Aug 26 18:17:53 webserver sshd[1776]: Failed password for invalid user pi from 192.0.2.29 port 54075 ssh2
+Aug 26 18:19:25 webserver sshd[7282]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Aug 26 18:21:36 webserver sshd[4516]: Failed password for invalid user ubuntu from 203.0.113.39 port 44569 ssh2
+Aug 26 18:24:55 webserver sshd[6349]: Failed password for invalid user user from 203.0.113.7 port 50946 ssh2
+Aug 26 18:25:30 webserver sshd[3129]: Failed password for invalid user jenkins from 203.0.113.7 port 55414 ssh2
+Aug 26 18:27:12 webserver sshd[5473]: Failed password for invalid user ubuntu from 203.0.113.39 port 40157 ssh2
+Aug 26 18:27:13 webserver sshd[4265]: Connection closed by 192.0.2.66 port 63688 [preauth]
+Aug 26 18:29:33 webserver CRON[2065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 18:29:38 webserver sshd[6079]: Failed password for invalid user mysql from 198.51.100.107 port 53526 ssh2
+Aug 26 18:31:06 webserver sshd[4763]: Accepted password for jaswanth from 10.0.4.15 port 45292 ssh2
+Aug 26 18:31:07 webserver sshd[6973]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 18:32:48 webserver sshd[7099]: Failed password for invalid user ubuntu from 203.0.113.39 port 34373 ssh2
+Aug 26 18:33:11 webserver sshd[6691]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 18:33:46 webserver sshd[6599]: Connection reset by 192.0.2.149 port 60587 [preauth]
+Aug 26 18:33:58 webserver sshd[7106]: Failed password for invalid user guest from 203.0.113.104 port 39477 ssh2
+Aug 26 18:37:43 webserver sshd[2147]: pam_unix(sshd:session): session closed for user guest
+Aug 26 18:38:12 webserver sshd[6532]: Accepted publickey for deploy from 192.0.2.82 port 46097 ssh2: RSA SHA256:x
+Aug 26 18:38:24 webserver sshd[3491]: Failed password for invalid user ubuntu from 203.0.113.39 port 30256 ssh2
+Aug 26 18:44:00 webserver sshd[3096]: Failed password for invalid user ubuntu from 203.0.113.39 port 60493 ssh2
+Aug 26 18:46:03 webserver sshd[2512]: Failed password for invalid user root from 198.51.100.229 port 37937 ssh2
+Aug 26 18:46:11 webserver sshd[2657]: Failed password for invalid user www from 198.51.100.229 port 64385 ssh2
+Aug 26 18:46:45 webserver sshd[8294]: Connection closed by 203.0.113.126 port 41495 [preauth]
+Aug 26 18:49:36 webserver sshd[6973]: Failed password for invalid user ubuntu from 203.0.113.39 port 56737 ssh2
+Aug 26 18:54:04 webserver sshd[8268]: Disconnected from authenticating user www 198.51.100.121 port 64129 [preauth]
+Aug 26 18:55:12 webserver sshd[1517]: Failed password for invalid user ubuntu from 203.0.113.39 port 49537 ssh2
+Aug 26 19:00:48 webserver sshd[7605]: Failed password for invalid user ubuntu from 203.0.113.39 port 35298 ssh2
+Aug 26 19:03:23 webserver sshd[3159]: Connection closed by 203.0.113.248 port 32623 [preauth]
+Aug 26 19:05:53 webserver sshd[1088]: Failed password for invalid user admin from 198.51.100.80 port 57616 ssh2
+Aug 26 19:06:08 webserver sshd[1787]: Failed password for invalid user ubuntu from 198.51.100.80 port 51085 ssh2
+Aug 26 19:06:24 webserver sshd[1129]: Failed password for invalid user ubuntu from 203.0.113.39 port 38595 ssh2
+Aug 26 19:10:01 webserver sshd[8990]: Accepted password for backup from 10.0.4.23 port 64606 ssh2
+Aug 26 19:10:02 webserver sshd[1643]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 19:12:00 webserver sshd[2302]: Failed password for invalid user ubuntu from 203.0.113.39 port 52301 ssh2
+Aug 26 19:12:24 webserver sshd[9506]: pam_unix(sshd:session): session closed for user root
+Aug 26 19:13:08 webserver sshd[3729]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 19:16:02 webserver sshd[5026]: Failed password for invalid user admin from 203.0.113.151 port 54095 ssh2
+Aug 26 19:17:36 webserver sshd[7585]: Failed password for invalid user ubuntu from 203.0.113.39 port 30317 ssh2
+Aug 26 19:20:26 webserver sshd[1285]: Connection closed by 192.0.2.4 port 42142 [preauth]
+Aug 26 19:23:12 webserver sshd[8408]: Failed password for invalid user ubuntu from 203.0.113.39 port 31894 ssh2
+Aug 26 19:27:40 webserver sshd[9735]: Connection reset by 203.0.113.224 port 34985 [preauth]
+Aug 26 19:28:48 webserver sshd[6777]: Failed password for invalid user ubuntu from 203.0.113.39 port 59145 ssh2
+Aug 26 19:29:04 webserver sshd[9550]: Accepted password for postgres from 10.0.4.15 port 57639 ssh2
+Aug 26 19:29:05 webserver sshd[4435]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 19:29:42 webserver sshd[1265]: Disconnected from authenticating user ansible 203.0.113.44 port 34363 [preauth]
+Aug 26 19:32:45 webserver sshd[6730]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 26 19:33:00 webserver sshd[3305]: Failed password for invalid user www from 198.51.100.89 port 54015 ssh2
+Aug 26 19:33:03 webserver sshd[2509]: Failed password for invalid user root from 198.51.100.89 port 35996 ssh2
+Aug 26 19:33:16 webserver sshd[5129]: Failed password for invalid user jenkins from 198.51.100.89 port 32454 ssh2
+Aug 26 19:33:31 webserver sshd[2105]: Failed password for invalid user user from 198.51.100.89 port 53521 ssh2
+Aug 26 19:33:40 webserver sshd[8631]: Accepted password for ansible from 198.51.100.89 port 33695 ssh2
+Aug 26 19:33:42 webserver sshd[8752]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 26 19:33:50 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 19:34:22 webserver sudo:  ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/bash
+Aug 26 19:34:24 webserver sshd[3216]: Failed password for invalid user ubuntu from 203.0.113.39 port 48903 ssh2
+Aug 26 19:36:18 webserver sshd[3724]: pam_unix(sshd:session): session closed for user ansible
+Aug 26 19:36:43 webserver sshd[4602]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 26 19:38:38 webserver CRON[9615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 19:40:00 webserver sshd[1691]: Failed password for invalid user ubuntu from 203.0.113.39 port 37106 ssh2
+Aug 26 19:40:54 webserver CRON[1985]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 19:45:36 webserver sshd[4181]: Failed password for invalid user ubuntu from 203.0.113.39 port 30649 ssh2
+Aug 26 19:46:42 webserver sshd[2444]: Accepted password for jaswanth from 10.0.4.15 port 62460 ssh2
+Aug 26 19:46:43 webserver sshd[3033]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 19:51:12 webserver sshd[3826]: Failed password for invalid user ubuntu from 203.0.113.39 port 54749 ssh2
+Aug 26 19:52:42 webserver sshd[6954]: Disconnected from authenticating user www 192.0.2.240 port 59991 [preauth]
+Aug 26 19:56:07 webserver sshd[9978]: Disconnected from authenticating user test 203.0.113.115 port 51383 [preauth]
+Aug 26 19:56:48 webserver sshd[6724]: Failed password for invalid user ubuntu from 203.0.113.39 port 37753 ssh2
+Aug 26 20:02:24 webserver sshd[6992]: Failed password for invalid user ubuntu from 203.0.113.39 port 56574 ssh2
+Aug 26 20:04:35 webserver sshd[8675]: Accepted password for postgres from 10.0.4.23 port 30875 ssh2
+Aug 26 20:04:36 webserver sshd[4598]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 20:06:30 webserver sshd[4502]: Failed password for backup from 10.0.4.11 port 32271 ssh2
+Aug 26 20:06:34 webserver sshd[6603]: Accepted password for backup from 10.0.4.11 port 39272 ssh2
+Aug 26 20:06:35 webserver sshd[5385]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 20:06:48 webserver sshd[1263]: Disconnected from authenticating user postgres 198.51.100.54 port 44405 [preauth]
+Aug 26 20:06:57 webserver sshd[3299]: Accepted password for ansible from 10.0.4.40 port 58315 ssh2
+Aug 26 20:06:58 webserver sshd[4395]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 26 20:07:18 webserver sshd[9696]: Accepted password for backup from 10.0.4.12 port 45154 ssh2
+Aug 26 20:07:19 webserver sshd[9212]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 20:07:57 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 20:08:00 webserver sshd[2140]: Failed password for invalid user ubuntu from 203.0.113.39 port 42500 ssh2
+Aug 26 20:09:19 webserver sshd[4053]: Accepted password for alice from 10.0.4.15 port 62707 ssh2
+Aug 26 20:09:20 webserver sshd[8577]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 20:09:35 webserver CRON[6771]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 20:09:39 webserver sshd[9831]: Failed password for invalid user www from 203.0.113.106 port 41684 ssh2
+Aug 26 20:11:17 webserver sshd[2369]: Accepted password for alice from 10.0.4.23 port 63657 ssh2
+Aug 26 20:11:18 webserver sshd[7348]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 20:11:35 webserver sshd[4282]: pam_unix(sshd:session): session opened for user ftp by (uid=0)
+Aug 26 20:13:36 webserver sshd[4419]: Failed password for invalid user ubuntu from 203.0.113.39 port 59135 ssh2
+Aug 26 20:15:14 webserver CRON[1000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 20:17:52 webserver sshd[8954]: Connection reset by 203.0.113.205 port 56036 [preauth]
+Aug 26 20:19:12 webserver sshd[4840]: Failed password for invalid user ubuntu from 203.0.113.39 port 63540 ssh2
+Aug 26 20:22:34 webserver sshd[2094]: Accepted publickey for jenkins from 192.0.2.59 port 61906 ssh2: RSA SHA256:x
+Aug 26 20:24:48 webserver sshd[8122]: Failed password for invalid user ubuntu from 203.0.113.39 port 57478 ssh2
+Aug 26 20:30:24 webserver sshd[2925]: Failed password for invalid user ubuntu from 203.0.113.39 port 59521 ssh2
+Aug 26 20:32:58 webserver sshd[9311]: pam_unix(sshd:session): session closed for user deploy
+Aug 26 20:36:00 webserver sshd[1458]: Failed password for invalid user ubuntu from 203.0.113.39 port 32509 ssh2
+Aug 26 20:36:48 webserver sshd[5003]: Received disconnect from 192.0.2.187 port 51274:11: Bye Bye [preauth]
+Aug 26 20:38:11 webserver sshd[9167]: Failed password for invalid user oracle from 198.51.100.209 port 52586 ssh2
+Aug 26 20:39:22 webserver CRON[3174]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 20:39:43 webserver CRON[6385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 20:41:36 webserver sshd[1615]: Failed password for invalid user ubuntu from 203.0.113.39 port 38551 ssh2
+Aug 26 20:46:01 webserver sshd[1322]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 26 20:47:12 webserver sshd[7171]: Failed password for invalid user ubuntu from 203.0.113.39 port 40502 ssh2
+Aug 26 20:51:16 webserver sshd[3206]: Connection reset by 198.51.100.197 port 54663 [preauth]
+Aug 26 20:51:55 webserver sshd[9018]: Failed password for invalid user admin from 192.0.2.137 port 33410 ssh2
+Aug 26 20:52:06 webserver sshd[3998]: Failed password for invalid user ubuntu from 192.0.2.137 port 54859 ssh2
+Aug 26 20:52:48 webserver sshd[9360]: Failed password for invalid user ubuntu from 203.0.113.39 port 43950 ssh2
+Aug 26 20:54:29 webserver sshd[3137]: Failed password for invalid user git from 198.51.100.192 port 33132 ssh2
+Aug 26 20:58:24 webserver sshd[3339]: Failed password for invalid user ubuntu from 203.0.113.39 port 49697 ssh2
+Aug 26 21:03:12 webserver sshd[2019]: Accepted password for ansible from 10.0.4.12 port 32314 ssh2
+Aug 26 21:03:13 webserver sshd[2119]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 26 21:04:00 webserver sshd[1162]: Failed password for invalid user ubuntu from 203.0.113.39 port 38072 ssh2
+Aug 26 21:07:38 webserver sshd[8984]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 21:09:36 webserver sshd[3380]: Failed password for invalid user ubuntu from 203.0.113.39 port 59994 ssh2
+Aug 26 21:12:41 webserver sshd[7063]: Disconnected from authenticating user jenkins 198.51.100.77 port 43311 [preauth]
+Aug 26 21:13:30 webserver sshd[6471]: Connection closed by 192.0.2.234 port 45707 [preauth]
+Aug 26 21:15:08 webserver sshd[5540]: pam_unix(sshd:session): session opened for user guest by (uid=0)
+Aug 26 21:15:12 webserver sshd[8718]: Failed password for invalid user ubuntu from 203.0.113.39 port 48025 ssh2
+Aug 26 21:17:05 webserver sshd[3376]: Received disconnect from 203.0.113.69 port 47646:11: Bye Bye [preauth]
+Aug 26 21:18:25 webserver sshd[3792]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 21:18:29 webserver sshd[3209]: Failed password for invalid user root from 198.51.100.61 port 52640 ssh2
+Aug 26 21:20:48 webserver sshd[1801]: Failed password for invalid user ubuntu from 203.0.113.39 port 43913 ssh2
+Aug 26 21:26:24 webserver sshd[7493]: Failed password for invalid user ubuntu from 203.0.113.39 port 53325 ssh2
+Aug 26 21:30:57 webserver sshd[5094]: Disconnected from authenticating user www 192.0.2.210 port 34257 [preauth]
+Aug 26 21:32:00 webserver sshd[7999]: Failed password for invalid user ubuntu from 203.0.113.39 port 60152 ssh2
+Aug 26 21:36:22 webserver sshd[8776]: Failed password for postgres from 192.0.2.198 port 55912 ssh2
+Aug 26 21:36:53 webserver sshd[6088]: Failed password for invalid user pi from 198.51.100.223 port 63707 ssh2
+Aug 26 21:37:23 webserver sshd[3857]: Failed password for invalid user jenkins from 198.51.100.223 port 54087 ssh2
+Aug 26 21:37:36 webserver sshd[3709]: Failed password for invalid user ubuntu from 203.0.113.39 port 33424 ssh2
+Aug 26 21:39:14 webserver sshd[6796]: pam_unix(sshd:session): session closed for user root
+Aug 26 21:39:32 webserver sshd[2845]: Disconnected from authenticating user guest 198.51.100.128 port 37406 [preauth]
+Aug 26 21:43:12 webserver sshd[5754]: Failed password for invalid user ubuntu from 203.0.113.39 port 41932 ssh2
+Aug 26 21:46:33 webserver sshd[4939]: Accepted password for postgres from 10.0.4.15 port 61166 ssh2
+Aug 26 21:46:34 webserver sshd[3994]: pam_unix(sshd:session): session opened for user postgres by (uid=0)
+Aug 26 21:48:26 webserver sudo:  postgres : TTY=pts/0 ; PWD=/home/postgres ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Aug 26 21:48:48 webserver sshd[3013]: Failed password for invalid user ubuntu from 203.0.113.39 port 32655 ssh2
+Aug 26 21:53:40 webserver CRON[7369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 21:54:24 webserver sshd[2827]: Failed password for invalid user ubuntu from 203.0.113.39 port 61932 ssh2
+Aug 26 21:56:49 webserver sshd[8202]: Accepted publickey for ansible from 192.0.2.166 port 42762 ssh2: RSA SHA256:x
+Aug 26 21:59:53 webserver sshd[5456]: pam_unix(sshd:session): session closed for user user
+Aug 26 22:00:00 webserver sshd[9650]: Failed password for invalid user ubuntu from 203.0.113.39 port 61172 ssh2
+Aug 26 22:02:15 webserver sshd[5907]: Accepted publickey for backup from 198.51.100.179 port 63021 ssh2: RSA SHA256:x
+Aug 26 22:04:14 webserver sshd[2281]: Failed password for deploy from 10.0.4.12 port 35413 ssh2
+Aug 26 22:04:27 webserver sshd[7066]: Accepted password for deploy from 10.0.4.12 port 61048 ssh2
+Aug 26 22:04:28 webserver sshd[5119]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 22:05:36 webserver sshd[1932]: Failed password for invalid user ubuntu from 203.0.113.39 port 52102 ssh2
+Aug 26 22:07:56 webserver sshd[3257]: Failed password for invalid user test from 203.0.113.9 port 31837 ssh2
+Aug 26 22:09:47 webserver sshd[1266]: Connection reset by 192.0.2.96 port 37272 [preauth]
+Aug 26 22:09:50 webserver sshd[5323]: Failed password for invalid user root from 192.0.2.132 port 46069 ssh2
+Aug 26 22:10:41 webserver CRON[8431]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 22:11:12 webserver sshd[5694]: Failed password for invalid user ubuntu from 203.0.113.39 port 43308 ssh2
+Aug 26 22:13:17 webserver sshd[2612]: Connection reset by 203.0.113.10 port 46196 [preauth]
+Aug 26 22:16:48 webserver sshd[7314]: Failed password for invalid user ubuntu from 203.0.113.39 port 59192 ssh2
+Aug 26 22:18:57 webserver sshd[6169]: Received disconnect from 198.51.100.18 port 39348:11: Bye Bye [preauth]
+Aug 26 22:20:17 webserver CRON[5369]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 22:20:46 webserver CRON[5679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 22:22:24 webserver sshd[6135]: Failed password for invalid user ubuntu from 203.0.113.39 port 48602 ssh2
+Aug 26 22:25:31 webserver sshd[9868]: Connection reset by 203.0.113.35 port 52060 [preauth]
+Aug 26 22:26:46 webserver sshd[2579]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 22:26:58 webserver sshd[5287]: Accepted password for backup from 10.0.4.23 port 35907 ssh2
+Aug 26 22:26:59 webserver sshd[3073]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 22:28:00 webserver sshd[6230]: Failed password for invalid user ubuntu from 203.0.113.39 port 59398 ssh2
+Aug 26 22:28:30 webserver sudo:  backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 26 22:33:36 webserver sshd[9636]: Failed password for invalid user ubuntu from 203.0.113.39 port 37663 ssh2
+Aug 26 22:33:50 webserver sshd[4848]: Connection closed by 203.0.113.89 port 44552 [preauth]
+Aug 26 22:33:56 webserver sshd[7135]: Disconnected from authenticating user postgres 198.51.100.141 port 64854 [preauth]
+Aug 26 22:37:37 webserver sshd[4302]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 22:39:12 webserver sshd[9074]: Failed password for invalid user ubuntu from 203.0.113.39 port 30529 ssh2
+Aug 26 22:39:48 webserver CRON[2630]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 22:41:01 webserver sshd[8949]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 22:42:32 webserver sshd[8057]: Disconnected from authenticating user admin 203.0.113.241 port 45855 [preauth]
+Aug 26 22:44:48 webserver sshd[2121]: Failed password for invalid user ubuntu from 203.0.113.39 port 45490 ssh2
+Aug 26 22:49:32 webserver sshd[7018]: Disconnected from authenticating user postgres 198.51.100.131 port 38570 [preauth]
+Aug 26 22:50:24 webserver sshd[9937]: Failed password for invalid user ubuntu from 203.0.113.39 port 52891 ssh2
+Aug 26 22:51:38 webserver sshd[2888]: Accepted password for alice from 10.0.4.11 port 49335 ssh2
+Aug 26 22:51:39 webserver sshd[3228]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 22:55:12 webserver sshd[8327]: Accepted publickey for mysql from 203.0.113.226 port 63441 ssh2: RSA SHA256:x
+Aug 26 22:55:38 webserver sudo:  alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/ls /var/log
+Aug 26 22:57:30 webserver sshd[5967]: Connection closed by 192.0.2.12 port 60054 [preauth]
+Aug 26 22:59:04 webserver sshd[5494]: Accepted password for alice from 10.0.4.12 port 42471 ssh2
+Aug 26 22:59:05 webserver sshd[2345]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 23:00:05 webserver CRON[7905]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 23:06:12 webserver CRON[5106]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 23:07:25 webserver sshd[6143]: Received disconnect from 198.51.100.251 port 61315:11: Bye Bye [preauth]
+Aug 26 23:10:30 webserver sshd[1829]: Accepted publickey for user from 198.51.100.78 port 59840 ssh2: RSA SHA256:x
+Aug 26 23:11:14 webserver sshd[8465]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 26 23:11:33 webserver sshd[9002]: Received disconnect from 203.0.113.119 port 58540:11: Bye Bye [preauth]
+Aug 26 23:14:05 webserver sshd[3236]: Accepted publickey for ftp from 198.51.100.27 port 39404 ssh2: RSA SHA256:x
+Aug 26 23:15:03 webserver sshd[9820]: pam_unix(sshd:session): session opened for user guest by (uid=0)
+Aug 26 23:22:43 webserver sshd[6346]: pam_unix(sshd:session): session opened for user jenkins by (uid=0)
+Aug 26 23:23:21 webserver sshd[3554]: error: kex_exchange_identification: Connection closed by remote host
+Aug 26 23:25:25 webserver sshd[7312]: Failed password for invalid user oracle from 192.0.2.40 port 35127 ssh2
+Aug 26 23:25:27 webserver sshd[4222]: Failed password for invalid user oracle from 198.51.100.169 port 57873 ssh2
+Aug 26 23:29:17 webserver sshd[6648]: Disconnected from authenticating user user 192.0.2.143 port 49496 [preauth]
+Aug 26 23:30:07 webserver sshd[3007]: Failed password for backup from 10.0.4.23 port 34209 ssh2
+Aug 26 23:30:11 webserver sshd[2826]: Accepted password for backup from 10.0.4.23 port 39459 ssh2
+Aug 26 23:30:12 webserver sshd[3436]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Aug 26 23:30:51 webserver sshd[7790]: Accepted password for deploy from 10.0.4.12 port 52342 ssh2
+Aug 26 23:30:52 webserver sshd[1600]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Aug 26 23:32:23 webserver sshd[6569]: Accepted password for alice from 10.0.4.23 port 45942 ssh2
+Aug 26 23:32:24 webserver sshd[6105]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Aug 26 23:37:59 webserver sshd[6682]: Failed password for jaswanth from 10.0.4.11 port 54288 ssh2
+Aug 26 23:38:14 webserver sshd[8893]: Accepted password for jaswanth from 10.0.4.11 port 30280 ssh2
+Aug 26 23:38:15 webserver sshd[3598]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 23:41:44 webserver sshd[4148]: Received disconnect from 203.0.113.31 port 36884:11: Bye Bye [preauth]
+Aug 26 23:43:31 webserver sshd[4662]: Accepted password for jaswanth from 10.0.4.23 port 42130 ssh2
+Aug 26 23:43:32 webserver sshd[4027]: pam_unix(sshd:session): session opened for user jaswanth by (uid=0)
+Aug 26 23:44:31 webserver CRON[6523]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Aug 26 23:44:38 webserver sshd[2812]: Connection closed by 198.51.100.210 port 50938 [preauth]
+Aug 26 23:49:49 webserver sshd[6020]: Accepted password for ansible from 10.0.4.40 port 42471 ssh2
+Aug 26 23:49:50 webserver sshd[5206]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Aug 26 23:49:51 webserver sshd[8002]: Connection closed by 198.51.100.182 port 46071 [preauth]
+Aug 26 23:51:06 webserver sshd[1525]: Disconnected from authenticating user pi 198.51.100.84 port 37447 [preauth]
+Aug 26 23:54:02 webserver sshd[2265]: Failed password for invalid user pi from 192.0.2.138 port 51375 ssh2
+Aug 26 23:54:04 webserver sshd[7557]: Failed password for invalid user git from 192.0.2.138 port 54934 ssh2
+Aug 26 23:55:45 webserver sshd[5017]: Failed password for invalid user www from 198.51.100.15 port 38165 ssh2
+Aug 26 23:56:17 webserver sshd[1930]: Failed password for invalid user user from 198.51.100.15 port 50171 ssh2
+Aug 26 23:56:40 webserver sshd[6687]: Connection closed by 198.51.100.37 port 52467 [preauth]
+Aug 26 23:57:33 webserver sshd[6718]: Failed password for invalid user guest from 203.0.113.232 port 64149 ssh2
+Aug 26 23:58:56 webserver sshd[3812]: Disconnected from authenticating user ansible 203.0.113.25 port 51995 [preauth]
+Aug 26 23:58:59 webserver sshd[8456]: Failed password for invalid user user from 203.0.113.196 port 54290 ssh2

@@ -1,0 +1,10 @@
+# Web application only. The CLI, the detector and the evaluation harness
+# need nothing but the standard library.
+flask>=3.0
+
+# Production server, used by the Docker image. Not needed for local dev.
+gunicorn>=21.0
+
+# Optional: geo and ASN lookup. Also needs the GeoLite2 .mmdb files, which
+# are free from maxmind.com and are not bundled here.
+# geoip2>=4.8
